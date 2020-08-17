@@ -63,7 +63,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.43563217" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -213,6 +213,7 @@
       <workItem from="1596548695043" duration="5683000" />
       <workItem from="1596630589633" duration="6543000" />
       <workItem from="1597667581957" duration="2404000" />
+      <workItem from="1597670877865" duration="633000" />
     </task>
     <servers />
   </component>
@@ -311,10 +312,10 @@
       <screen x="0" y="0" width="1366" height="737" />
     </state>
     <state x="213" y="22" key="Maven.ArtifactSearchDialog/0.0.1366.737@0.0.1366.737" timestamp="1591638265840" />
-    <state x="163" y="0" key="SettingsEditor" timestamp="1591890594883">
+    <state x="163" y="0" key="SettingsEditor" timestamp="1597671502937">
       <screen x="0" y="0" width="1366" height="737" />
     </state>
-    <state x="163" y="0" key="SettingsEditor/0.0.1366.737@0.0.1366.737" timestamp="1591890594883" />
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.737@0.0.1366.737" timestamp="1597671502937" />
     <state x="290" y="64" width="786" height="608" key="find.popup" timestamp="1595862822462">
       <screen x="0" y="0" width="1366" height="737" />
     </state>
