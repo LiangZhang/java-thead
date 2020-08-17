@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="74376a79-2656-4bd9-99b3-ed503edd66f1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="137" />
+    <option name="y" value="124" />
+    <option name="width" value="1300" />
+    <option name="height" value="807" />
+  </component>
+  <component name="ProjectId" id="1d2VzqXqsef6cMKC5mA9vioUVwS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.43563217" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\java-thead\day01_java_thead_01\src\main\java\com\zlsoft\volatileThread" />
+      <recent name="F:\java-thead\day01_java_thead_01\src\main\java\com\zlsoft\yh" />
+      <recent name="F:\java-thead\jmh_eliminate_locks\src" />
+      <recent name="F:\java-thead\day01_java_thead_01\src\main\java\com\zlsoft" />
+      <recent name="F:\java-thead\day04_thread_lock\src\main\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zlsoft.test" />
+      <recent name="com.zlsoft.patten" />
+      <recent name="com.zlsoft.core" />
+      <recent name="com.zlsoft" />
+      <recent name="com.zlsoft.util" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\java-thead\day02_jmh_spring_01\src\test\java\com\zlsoft\n0" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TerminationPattern">
+    <configuration name="HotProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zlsoft.classLiterals.HotProduct" />
+      <module name="day01_java_thead_01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zlsoft.classLiterals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParkUnpark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zlsoft.summarize.ParkUnpark" />
+      <module name="day01_java_thead_01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zlsoft.summarize.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TerminationPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zlsoft.volatileThread.TerminationPattern" />
+      <module name="day01_java_thead_01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zlsoft.volatileThread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zlsoft.test.Test2" />
+      <module name="day01_java_thead_01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zlsoft.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="volatileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zlsoft.volatileThread.volatileTest" />
+      <module name="day01_java_thead_01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zlsoft.volatileThread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ParkUnpark" />
+      <item itemvalue="Application.HotProduct" />
+      <item itemvalue="Application.Test2" />
+      <item itemvalue="Application.volatileTest" />
+      <item itemvalue="Application.TerminationPattern" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TerminationPattern" />
+        <item itemvalue="Application.volatileTest" />
+        <item itemvalue="Application.Test2" />
+        <item itemvalue="Application.HotProduct" />
+        <item itemvalue="Application.ParkUnpark" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="74376a79-2656-4bd9-99b3-ed503edd66f1" name="Default Changelist" comment="" />
+      <created>1591623439304</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591623439304</updated>
+      <workItem from="1591623443164" duration="2183000" />
+      <workItem from="1591626259050" duration="8143000" />
+      <workItem from="1591635005653" duration="821000" />
+      <workItem from="1591635876733" duration="695000" />
+      <workItem from="1591636630963" duration="2953000" />
+      <workItem from="1591640148345" duration="450000" />
+      <workItem from="1591886261563" duration="7840000" />
+      <workItem from="1591922366530" duration="3122000" />
+      <workItem from="1592199740316" duration="4261000" />
+      <workItem from="1592267374344" duration="8822000" />
+      <workItem from="1592355169785" duration="4776000" />
+      <workItem from="1592439404709" duration="1583000" />
+      <workItem from="1592872537987" duration="652000" />
+      <workItem from="1592902893720" duration="3940000" />
+      <workItem from="1592979885149" duration="6125000" />
+      <workItem from="1593310999867" duration="1788000" />
+      <workItem from="1593312969905" duration="11755000" />
+      <workItem from="1593396971518" duration="3593000" />
+      <workItem from="1593476204620" duration="5363000" />
+      <workItem from="1593564698989" duration="18293000" />
+      <workItem from="1593736114502" duration="5008000" />
+      <workItem from="1594002441492" duration="10005000" />
+      <workItem from="1594027656257" duration="594000" />
+      <workItem from="1594089597044" duration="33000" />
+      <workItem from="1594167452551" duration="8242000" />
+      <workItem from="1594351952281" duration="6973000" />
+      <workItem from="1594604232703" duration="7939000" />
+      <workItem from="1594624704489" duration="3577000" />
+      <workItem from="1594628826853" duration="3041000" />
+      <workItem from="1594707644096" duration="7982000" />
+      <workItem from="1594816121644" duration="7939000" />
+      <workItem from="1595854131869" duration="7376000" />
+      <workItem from="1596459526499" duration="5996000" />
+      <workItem from="1596548695043" duration="5683000" />
+      <workItem from="1596630589633" duration="6543000" />
+      <workItem from="1597667581957" duration="2404000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestBase_testEquals - 2020.06.28 at 12h 04m 53s.xml">
+      <configuration name="TestBase.testEquals" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestBase_testEquals - 2020.06.28 at 12h 15m 09s.xml">
+      <configuration name="TestBase.testEquals" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestBase_testEquals - 2020.06.28 at 18h 09m 11s.xml">
+      <configuration name="TestBase.testEquals" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestBase_testEquals - 2020.06.28 at 18h 09m 24s.xml">
+      <configuration name="TestBase.testEquals" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestBase_testEquals - 2020.06.28 at 18h 09m 29s.xml">
+      <configuration name="TestBase.testEquals" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JMHCurrentTests - 2020.07.06 at 11h 54m 35s.xml">
+      <configuration name="JMHCurrentTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JMHCurrentTests - 2020.07.06 at 12h 11m 03s.xml">
+      <configuration name="JMHCurrentTests" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="693" y="318" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591629255864">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state x="693" y="318" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.737@0.0.1366.737" timestamp="1591629255864" />
+    <state x="413" y="151" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1591639392971">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state x="413" y="151" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.737@0.0.1366.737" timestamp="1591639392971" />
+    <state x="327" y="292" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1596551273204">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state x="327" y="292" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.737@0.0.1366.737" timestamp="1596551273204" />
+    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1596646321353">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.737@0.0.1366.737" timestamp="1596646321353" />
+    <state width="1366" height="90" key="GridCell.Tab.0.bottom" timestamp="1596648480801">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state width="1366" height="90" key="GridCell.Tab.0.bottom/0.0.1366.737@0.0.1366.737" timestamp="1596648480801" />
+    <state width="1366" height="90" key="GridCell.Tab.0.center" timestamp="1596648480801">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state width="1366" height="90" key="GridCell.Tab.0.center/0.0.1366.737@0.0.1366.737" timestamp="1596648480801" />
+    <state width="1366" height="90" key="GridCell.Tab.0.left" timestamp="1596648480801">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state width="1366" height="90" key="GridCell.Tab.0.left/0.0.1366.737@0.0.1366.737" timestamp="1596648480801" />
+    <state width="1366" height="90" key="GridCell.Tab.0.right" timestamp="1596648480801">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state width="1366" height="90" key="GridCell.Tab.0.right/0.0.1366.737@0.0.1366.737" timestamp="1596648480801" />
+    <state width="1366" height="347" key="GridCell.Tab.1.bottom" timestamp="1596554444313">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state width="1366" height="347" key="GridCell.Tab.1.bottom/0.0.1366.737@0.0.1366.737" timestamp="1596554444313" />
+    <state width="1366" height="347" key="GridCell.Tab.1.center" timestamp="1596554444313">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state width="1366" height="347" key="GridCell.Tab.1.center/0.0.1366.737@0.0.1366.737" timestamp="1596554444313" />
+    <state width="1366" height="347" key="GridCell.Tab.1.left" timestamp="1596554444313">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state width="1366" height="347" key="GridCell.Tab.1.left/0.0.1366.737@0.0.1366.737" timestamp="1596554444313" />
+    <state width="1366" height="347" key="GridCell.Tab.1.right" timestamp="1596554444313">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state width="1366" height="347" key="GridCell.Tab.1.right/0.0.1366.737@0.0.1366.737" timestamp="1596554444313" />
+    <state width="1322" height="385" key="GridCell.Tab.2.bottom" timestamp="1591639592429">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state width="1322" height="385" key="GridCell.Tab.2.bottom/0.0.1366.737@0.0.1366.737" timestamp="1591639592429" />
+    <state width="1322" height="385" key="GridCell.Tab.2.center" timestamp="1591639592429">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state width="1322" height="385" key="GridCell.Tab.2.center/0.0.1366.737@0.0.1366.737" timestamp="1591639592429" />
+    <state width="1322" height="385" key="GridCell.Tab.2.left" timestamp="1591639592429">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state width="1322" height="385" key="GridCell.Tab.2.left/0.0.1366.737@0.0.1366.737" timestamp="1591639592429" />
+    <state width="1322" height="385" key="GridCell.Tab.2.right" timestamp="1591639592429">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state width="1322" height="385" key="GridCell.Tab.2.right/0.0.1366.737@0.0.1366.737" timestamp="1591639592429" />
+    <state x="213" y="22" key="Maven.ArtifactSearchDialog" timestamp="1591638265840">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state x="213" y="22" key="Maven.ArtifactSearchDialog/0.0.1366.737@0.0.1366.737" timestamp="1591638265840" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1591890594883">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.737@0.0.1366.737" timestamp="1591890594883" />
+    <state x="290" y="64" width="786" height="608" key="find.popup" timestamp="1595862822462">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state x="290" y="64" width="786" height="608" key="find.popup/0.0.1366.737@0.0.1366.737" timestamp="1595862822462" />
+    <state x="107" y="61" key="new project wizard" timestamp="1591887946937">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state x="107" y="61" key="new project wizard/0.0.1366.737@0.0.1366.737" timestamp="1591887946937" />
+    <state x="339" y="159" width="672" height="677" key="run.anything.popup" timestamp="1594825931004">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state x="339" y="159" width="672" height="677" key="run.anything.popup/0.0.1366.737@0.0.1366.737" timestamp="1594825931004" />
+    <state x="346" y="58" width="672" height="678" key="search.everywhere.popup" timestamp="1596550215124">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state x="346" y="58" width="672" height="678" key="search.everywhere.popup/0.0.1366.737@0.0.1366.737" timestamp="1596550215124" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/java_thead$Test12.ic" NAME="Test12 Coverage Results" MODIFIED="1592292398258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zlsoft.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>file1.getAbsolutePath()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>file.getPath()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>filelist[i]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Data</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>java.util.Formatter</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>java-thead:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.43563217" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>jmh_eliminate_locks</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.43563217" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
