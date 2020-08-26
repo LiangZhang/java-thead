@@ -1,7 +1,145 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74376a79-2656-4bd9-99b3-ed503edd66f1" name="Default Changelist" comment="" />
+    <list default="true" id="74376a79-2656-4bd9-99b3-ed503edd66f1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/java_thead_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/java_thead_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/java-thead1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/java-thead1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/READ.RD" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/READ.RD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/Async.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/Async.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/classLiterals/HotProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/classLiterals/HotProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/core/Sleeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/core/Sleeper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/core/TranslationClassLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/core/TranslationClassLayout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/deadlock/TestDeadLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/deadlock/TestDeadLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/deadlock/TestLiveLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/deadlock/TestLiveLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/deadlock/v1/TestDeadLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/deadlock/v1/TestDeadLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/deadlock/v2/TestDeadLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/deadlock/v2/TestDeadLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/deadlock/v3/TestDeadLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/deadlock/v3/TestDeadLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/doubleSingleton/GoStackOverflow.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/doubleSingleton/GoStackOverflow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/doubleSingleton/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/doubleSingleton/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/doubleSingleton/Singleton1.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/doubleSingleton/Singleton1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/doubleSingleton/Singleton2.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/doubleSingleton/Singleton2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/doubleSingleton/Singleton3.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/doubleSingleton/Singleton3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/doubleSingleton/Singleton4.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/doubleSingleton/Singleton4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/doubleSingleton/no-volatile-code.MD" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/doubleSingleton/no-volatile-code.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/doubleSingleton/volatile-code.MD" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/doubleSingleton/volatile-code.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/happensbefore/Happens.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/happensbefore/Happens.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/join/joinTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/join/joinTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/jol/JolTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/jol/JolTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/jol/TestBiased.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/jol/TestBiased.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/jol/monitorLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/jol/monitorLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/jolTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/jolTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/multiLock/multiLockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/multiLock/multiLockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/n0/mThreadStacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/n0/mThreadStacks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/n0/stacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/n0/stacks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/n1/biasedLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/n1/biasedLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/n1/bigDecimalCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/n1/bigDecimalCompare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/n1/lightweightLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/n1/lightweightLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/n1/monitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/n1/monitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/park/ParkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/park/ParkTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/patten/Downloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/patten/Downloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/patten/FileSaver.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/patten/FileSaver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/patten/guarded/MTaskGuardedObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/patten/guarded/MTaskGuardedObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/patten/guarded/SingleGuardedObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/patten/guarded/SingleGuardedObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/patten/producer/ProducerConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/patten/producer/ProducerConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/print/Printf.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/print/Printf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/reentrant/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/reentrant/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/reentrant/TestCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/reentrant/TestCondition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/reentrant/TestFair.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/reentrant/TestFair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/reentrant/TestInterrupt.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/reentrant/TestInterrupt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/reentrant/TestReentrant.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/reentrant/TestReentrant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/reentrant/TestTimeout.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/reentrant/TestTimeout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/reflection/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/reflection/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/reflection/ReflectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/reflection/ReflectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/summarize/AwaitSignal.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/summarize/AwaitSignal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/summarize/ParkUnpark.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/summarize/ParkUnpark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/summarize/Uppark.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/summarize/Uppark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/summarize/VolatileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/summarize/VolatileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/summarize/WaitNotify.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/summarize/WaitNotify.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/threadState/ThreadState.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/threadState/ThreadState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/volatilesfence/firstGig.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/volatilesfence/firstGig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/volatilesfence/volatileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/volatilesfence/volatileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/volatilesfence/volatileTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/volatilesfence/volatileTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/wait/notify.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/wait/notify.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/wait/paramArgs.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/wait/paramArgs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/wait/sleepAndWait.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/wait/sleepAndWait.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/yh/AddSoapHeader.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/yh/AddSoapHeader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/yh/LcUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/yh/LcUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/yh/RSAUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/yh/RSAUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/yh/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/yh/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/test/java/com/zlsoft/base/readTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/test/java/com/zlsoft/base/readTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_junit_jmh_01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/day01_junit_jmh_01/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_junit_jmh_01/src/READ.MD" beforeDir="false" afterPath="$PROJECT_DIR$/day01_junit_jmh_01/src/READ.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_junit_jmh_01/src/main/java/com/zlsoft/service/FourthBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_junit_jmh_01/src/main/java/com/zlsoft/service/FourthBenchmark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02_jmh_spring_01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/day02_jmh_spring_01/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02_jmh_spring_01/src/main/java/com/zlsoft/JmhApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/day02_jmh_spring_01/src/main/java/com/zlsoft/JmhApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02_jmh_spring_01/src/test/java/com/zlsoft/READ.MD" beforeDir="false" afterPath="$PROJECT_DIR$/day02_jmh_spring_01/src/test/java/com/zlsoft/READ.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02_jmh_spring_01/src/test/java/com/zlsoft/n0/BackwardCountPerf.java" beforeDir="false" afterPath="$PROJECT_DIR$/day02_jmh_spring_01/src/test/java/com/zlsoft/n0/BackwardCountPerf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02_jmh_spring_01/src/test/java/com/zlsoft/n0/ForwardCountPerf.java" beforeDir="false" afterPath="$PROJECT_DIR$/day02_jmh_spring_01/src/test/java/com/zlsoft/n0/ForwardCountPerf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02_jmh_spring_01/src/test/java/com/zlsoft/n0/JMHCurrentTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/day02_jmh_spring_01/src/test/java/com/zlsoft/n0/JMHCurrentTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02_jmh_spring_01/src/test/java/com/zlsoft/n0/JMHSpringBootTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/day02_jmh_spring_01/src/test/java/com/zlsoft/n0/JMHSpringBootTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02_jmh_spring_01/src/test/java/com/zlsoft/n1/FirstBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/day02_jmh_spring_01/src/test/java/com/zlsoft/n1/FirstBenchmark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02_jmh_spring_01/src/test/java/com/zlsoft/n2/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/day02_jmh_spring_01/src/test/java/com/zlsoft/n2/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02_jmh_spring_01/src/test/java/com/zlsoft/n2/MultithreadCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/day02_jmh_spring_01/src/test/java/com/zlsoft/n2/MultithreadCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02_jmh_spring_01/src/test/java/com/zlsoft/n2/SecondBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/day02_jmh_spring_01/src/test/java/com/zlsoft/n2/SecondBenchmark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02_jmh_spring_01/src/test/java/com/zlsoft/n2/SinglethreadCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/day02_jmh_spring_01/src/test/java/com/zlsoft/n2/SinglethreadCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03_thread_base_01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/day03_thread_base_01/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03_thread_base_01/src/main/java/com/zlsoft/Locks8/locks1.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03_thread_base_01/src/main/java/com/zlsoft/Locks8/locks1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03_thread_base_01/src/main/java/com/zlsoft/TestBiased.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03_thread_base_01/src/main/java/com/zlsoft/TestBiased.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03_thread_base_01/src/main/java/com/zlsoft/TestCpu.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03_thread_base_01/src/main/java/com/zlsoft/TestCpu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03_thread_base_01/src/main/java/com/zlsoft/TestJoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03_thread_base_01/src/main/java/com/zlsoft/TestJoin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03_thread_base_01/src/main/java/com/zlsoft/TestYield.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03_thread_base_01/src/main/java/com/zlsoft/TestYield.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03_thread_base_01/src/main/java/com/zlsoft/exercise/ExerciseSell.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03_thread_base_01/src/main/java/com/zlsoft/exercise/ExerciseSell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03_thread_base_01/src/main/java/com/zlsoft/exercise/ExerciseTransfer.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03_thread_base_01/src/main/java/com/zlsoft/exercise/ExerciseTransfer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03_thread_base_01/src/main/java/com/zlsoft/firstThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03_thread_base_01/src/main/java/com/zlsoft/firstThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03_thread_base_01/src/main/java/com/zlsoft/util/FileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03_thread_base_01/src/main/java/com/zlsoft/util/FileReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03_thread_base_01/src/main/java/com/zlsoft/util/Sleeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03_thread_base_01/src/main/java/com/zlsoft/util/Sleeper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03_thread_base_01/src/main/java/com/zlsoft/util/StringBuf.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03_thread_base_01/src/main/java/com/zlsoft/util/StringBuf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03_thread_base_01/src/test/java/com/zlsoft/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03_thread_base_01/src/test/java/com/zlsoft/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03_thread_base_01/src/test/java/com/zlsoft/Test10.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03_thread_base_01/src/test/java/com/zlsoft/Test10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03_thread_base_01/src/test/java/com/zlsoft/Test11.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03_thread_base_01/src/test/java/com/zlsoft/Test11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03_thread_base_01/src/test/java/com/zlsoft/Test12.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03_thread_base_01/src/test/java/com/zlsoft/Test12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03_thread_base_01/src/test/java/com/zlsoft/Test14.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03_thread_base_01/src/test/java/com/zlsoft/Test14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03_thread_base_01/src/test/java/com/zlsoft/Test8Locks.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03_thread_base_01/src/test/java/com/zlsoft/Test8Locks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03_thread_base_01/src/test/java/com/zlsoft/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03_thread_base_01/src/test/java/com/zlsoft/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03_thread_example/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/day03_thread_example/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03_thread_example/src/main/java/com/zlsoft/jol/JolTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03_thread_example/src/main/java/com/zlsoft/jol/JolTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03_thread_example/src/main/java/com/zlsoft/jol/TestBiased.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03_thread_example/src/main/java/com/zlsoft/jol/TestBiased.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03_thread_example/src/main/java/com/zlsoft/jol/monitorLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03_thread_example/src/main/java/com/zlsoft/jol/monitorLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03_thread_example/src/main/java/com/zlsoft/n0/mThreadStacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03_thread_example/src/main/java/com/zlsoft/n0/mThreadStacks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03_thread_example/src/main/java/com/zlsoft/n0/stacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03_thread_example/src/main/java/com/zlsoft/n0/stacks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03_thread_example/src/main/java/com/zlsoft/n1/biasedLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03_thread_example/src/main/java/com/zlsoft/n1/biasedLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03_thread_example/src/main/java/com/zlsoft/n1/bigDecimalCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03_thread_example/src/main/java/com/zlsoft/n1/bigDecimalCompare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03_thread_example/src/main/java/com/zlsoft/n1/lightweightLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03_thread_example/src/main/java/com/zlsoft/n1/lightweightLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03_thread_example/src/main/java/com/zlsoft/n1/monitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03_thread_example/src/main/java/com/zlsoft/n1/monitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jmh_eliminate_locks/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jmh_eliminate_locks/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jmh_eliminate_locks/src/main/java/com/itcast/MyBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/jmh_eliminate_locks/src/main/java/com/itcast/MyBenchmark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jmh_eliminate_locks/src/test/java/com/zlsoft/base/readTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jmh_eliminate_locks/src/test/java/com/zlsoft/base/readTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jmh_thread_locks/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jmh_thread_locks/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jmh_thread_locks/src/test/java/com/zlsoft/JMHCurrentTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/jmh_thread_locks/src/test/java/com/zlsoft/JMHCurrentTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jmh_thread_locks/src/test/java/com/zlsoft/firstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jmh_thread_locks/src/test/java/com/zlsoft/firstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/day01_java_thead_01/target/" />
+    <ignored path="$PROJECT_DIR$/jmh_eliminate_locks/target/" />
+    <ignored path="$PROJECT_DIR$/day01_junit_jmh_01/target/" />
+    <ignored path="$PROJECT_DIR$/day02_jmh_spring_01/target/" />
+    <ignored path="$PROJECT_DIR$/day03_thread_example/target/" />
+    <ignored path="$PROJECT_DIR$/jmh_thread_locks/target/" />
+    <ignored path="$PROJECT_DIR$/day03_thread_base_01/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +147,38 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/Account.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding>
+                <element signature="docComment;class#Account#0" />
+                <element signature="docComment;class#IAccount#0" />
+                <element signature="docComment;method#getBalance#0;class#IAccount#0" />
+                <element signature="docComment;method#withDrawal#0;class#IAccount#0" />
+                <element signature="docComment;method#demo#0;class#IAccount#0" />
+                <element signature="docComment;class#AccountUnsafe#0" />
+                <element signature="docComment;method#AccountUnsafe#0;class#AccountUnsafe#0" />
+                <element signature="docComment;method#withDrawal#0;class#AccountUnsafe#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="608">
+              <caret line="67" column="20" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -19,8 +189,25 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>cost</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/n6/Account.java" />
+        <option value="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/doubleSingleton/GoStackOverflow.java" />
+        <option value="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/Account.java" />
+      </list>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -32,13 +219,81 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="137" />
     <option name="y" value="124" />
     <option name="width" value="1300" />
     <option name="height" value="807" />
   </component>
   <component name="ProjectId" id="1d2VzqXqsef6cMKC5mA9vioUVwS" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="java-thead1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-thead1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-thead1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-thead1" type="462c0819:PsiDirectoryNode" />
+              <item name="day01_java_thead_01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-thead1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-thead1" type="462c0819:PsiDirectoryNode" />
+              <item name="day01_java_thead_01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-thead1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-thead1" type="462c0819:PsiDirectoryNode" />
+              <item name="day01_java_thead_01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-thead1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-thead1" type="462c0819:PsiDirectoryNode" />
+              <item name="day01_java_thead_01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-thead1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-thead1" type="462c0819:PsiDirectoryNode" />
+              <item name="day01_java_thead_01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zlsoft" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-thead1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-thead1" type="462c0819:PsiDirectoryNode" />
+              <item name="day01_java_thead_01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zlsoft" type="462c0819:PsiDirectoryNode" />
+              <item name="cas" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -50,9 +305,10 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GLCloud/gl-micro-service-v2" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -84,13 +340,25 @@
       <recent name="F:\java-thead\day02_jmh_spring_01\src\test\java\com\zlsoft\n0" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TerminationPattern">
-    <configuration name="HotProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zlsoft.classLiterals.HotProduct" />
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Account">
+    <configuration name="Account" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zlsoft.cas.Account" />
       <module name="day01_java_thead_01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zlsoft.classLiterals.*" />
+          <option name="PATTERN" value="com.zlsoft.cas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +366,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParkUnpark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zlsoft.summarize.ParkUnpark" />
+    <configuration name="HotProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zlsoft.classLiterals.HotProduct" />
       <module name="day01_java_thead_01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zlsoft.summarize.*" />
+          <option name="PATTERN" value="com.zlsoft.classLiterals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,19 +419,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ParkUnpark" />
       <item itemvalue="Application.HotProduct" />
       <item itemvalue="Application.Test2" />
       <item itemvalue="Application.volatileTest" />
       <item itemvalue="Application.TerminationPattern" />
+      <item itemvalue="Application.Account" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Account" />
         <item itemvalue="Application.TerminationPattern" />
         <item itemvalue="Application.volatileTest" />
         <item itemvalue="Application.Test2" />
         <item itemvalue="Application.HotProduct" />
-        <item itemvalue="Application.ParkUnpark" />
       </list>
     </recent_temporary>
   </component>
@@ -214,6 +482,11 @@
       <workItem from="1596630589633" duration="6543000" />
       <workItem from="1597667581957" duration="2404000" />
       <workItem from="1597670877865" duration="633000" />
+      <workItem from="1597913638251" duration="1939000" />
+      <workItem from="1597970736757" duration="2400000" />
+      <workItem from="1598238783393" duration="3687000" />
+      <workItem from="1598338045045" duration="6901000" />
+      <workItem from="1598403161500" duration="2013000" />
     </task>
     <servers />
   </component>
@@ -239,6 +512,50 @@
     <history-entry file="JMHCurrentTests - 2020.07.06 at 12h 11m 03s.xml">
       <configuration name="JMHCurrentTests" configurationId="JUnit" />
     </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="16940000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.032502707" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.12026002" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Word Book" order="6" side_tool="true" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="RestServices" order="10" />
+      <window_info anchor="right" id="Bean Validation" order="11" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -362,6 +679,94 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas.java" />
+    <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/n6/Account.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="398" column="30" selection-start-line="398" selection-start-column="30" selection-end-line="398" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/doubleSingleton/no-volatile-code.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/doubleSingleton/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="137" column="19" selection-start-line="137" selection-start-column="19" selection-end-line="137" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/doubleSingleton/Singleton.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/doubleSingleton/Singleton1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/doubleSingleton/Singleton2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/doubleSingleton/Singleton3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/doubleSingleton/Singleton4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/doubleSingleton/GoStackOverflow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="17" lean-forward="true" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="docComment;class#Account#0" />
+            <element signature="docComment;class#IAccount#0" />
+            <element signature="docComment;method#getBalance#0;class#IAccount#0" />
+            <element signature="docComment;method#withDrawal#0;class#IAccount#0" />
+            <element signature="docComment;method#demo#0;class#IAccount#0" />
+            <element signature="docComment;class#AccountUnsafe#0" />
+            <element signature="docComment;method#AccountUnsafe#0;class#AccountUnsafe#0" />
+            <element signature="docComment;method#withDrawal#0;class#AccountUnsafe#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="67" column="20" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
