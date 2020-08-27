@@ -126,17 +126,25 @@ class AccountSafe implements IAccount {
 
     @Override
     public void withDrawal(Integer amount) {
-        while (true) {
-            //工作线程中：
-            int prev = balance.get();
-            //工作线程中：
-            int next = prev - amount;
-            // 同步到主存中：比较并设置值
-            // compareAndSet，它的简称就是 CAS （也有 Compare And Swap 的说法），它必须是原子操作
-            if(balance.compareAndSet(prev,next)) {
-                break;
-            }
-        }
+//        while (true) {
+//            //工作线程中：
+//            int prev = balance.get();
+//            //工作线程中：
+//            int next = prev - amount;
+//            // 同步到主存中：比较并设置值
+//            // compareAndSet，它的简称就是 CAS （也有 Compare And Swap 的说法），它必须是原子操作
+//            if(balance.compareAndSet(prev,next)) {
+//                break;
+//            }
+//        }
+        /**
+         * 优化：
+         */
+        balance.getAndAdd(-1 * amount);
+        /**
+         * 一元操作
+         */
+        balance.updateAndGet(param ->  param * 10);
     }
 }
 
