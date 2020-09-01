@@ -4,6 +4,7 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicReference;
+import java.util.concurrent.atomic.AtomicStampedReference;
 
 /**
  * @version 1.0.0
@@ -80,6 +81,7 @@ interface  IDecimalAccount{
      * 如果初始余额为 10000 那么正确的结果应当是 0
      */
     static void demo(IDecimalAccount account) {
+
         List<Thread> ts = new ArrayList<>();
         for (int i = 0; i < 1000; i++) {
             ts.add(new Thread(() -> {

@@ -19,6 +19,7 @@ com\zlsoft\deadlock\v1\Chopstick.class
 com\zlsoft\n1\biasedLock.class
 com\zlsoft\doubleSingleton\Singleton2.class
 com\zlsoft\jol\Person.class
+com\zlsoft\cas\GarbageBag.class
 com\zlsoft\cas\AtomicTest.class
 com\zlsoft\classLiterals\ThreadA5.class
 com\zlsoft\deadlock\v1\Philosopher.class
