@@ -20,7 +20,9 @@ import static com.zlsoft.core.Sleeper.sleep;
  * @package: com.zlsoft.cas
  * @ClassName: AtomicABATest.java
  * @author: L.Z QQ.191288065@qq.com
- * @Description
+ * @Description 原子引用：ABA问题
+ *    -AtomicStampedReference
+ *    -AtomicMarkableReference
  * @createTime 2020年08月26日 17:24:00
  */
 @Slf4j(topic = "z.atomicABATest")

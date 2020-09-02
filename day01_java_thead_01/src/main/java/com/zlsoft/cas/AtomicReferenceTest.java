@@ -15,7 +15,7 @@ import java.util.concurrent.atomic.AtomicStampedReference;
  * @Description: 原子引用：
  * @createTime 2020年08月26日 15:51:00
  */
-public class DecimalAccount {
+public class AtomicReferenceTest {
     public static void main(String[] args) {
 //        test1();
         test2();

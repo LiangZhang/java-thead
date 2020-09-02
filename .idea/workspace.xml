@@ -2,19 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74376a79-2656-4bd9-99b3-ed503edd66f1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/AtomicArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/AtomicFieldTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/LongAdderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/AtomicABATest.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/AtomicABATest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/DecimalAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/DecimalAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/AtomicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/AtomicIntegerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/DecimalAccount.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/day01_java_thead_01/target/classes/com/zlsoft/cas/AtomicABATest.class" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/target/classes/com/zlsoft/cas/AtomicABATest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/target/classes/com/zlsoft/cas/DecimalAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/target/classes/com/zlsoft/cas/DecimalAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/target/classes/com/zlsoft/cas/AtomicTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/target/classes/com/zlsoft/cas/DecimalAccount.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/day01_java_thead_01/target/classes/com/zlsoft/cas/DecimalAccountCas.class" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/target/classes/com/zlsoft/cas/DecimalAccountCas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/target/classes/com/zlsoft/cas/GarbageBag.class" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/target/classes/com/zlsoft/cas/GarbageBag.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day01_java_thead_01/target/classes/com/zlsoft/cas/IDecimalAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/target/classes/com/zlsoft/cas/IDecimalAccount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/target/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/target/classes/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/target/day01_java_thead_01-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/target/day01_java_thead_01-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,35 +37,66 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/AtomicABATest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/AtomicFieldTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="142" column="37" selection-start-line="142" selection-start-column="24" selection-end-line="142" selection-end-column="37" />
+            <state relative-caret-position="227">
+              <caret line="22" column="35" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="35" />
               <folding>
-                <element signature="docComment;class#AtomicABATest#0" />
-                <element signature="docComment;field#ref#0;class#AtomicABATest#0" />
-                <element signature="docComment;field#referenceABA#0;class#AtomicABATest#0" />
-                <element signature="method#main#0;class#AtomicABATest#0" />
-                <element signature="e#811#844#0" />
-                <element signature="e#1016#1034#0" />
-                <element signature="n#!!doc;n#test1#0;n#AtomicABATest#0" />
-                <element signature="method#test1#0;class#AtomicABATest#0" />
-                <element signature="e#986#994#0" />
-                <element signature="method#other1#0;class#AtomicABATest#0" />
-                <element signature="e#1236#1329#0" />
-                <element signature="e#1386#1479#0" />
-                <element signature="n#!!doc;n#test2#0;n#AtomicABATest#0" />
-                <element signature="method#test2#0;class#AtomicABATest#0" />
-                <element signature="e#1637#1645#0" />
-                <element signature="method#other2#0;class#AtomicABATest#0" />
-                <element signature="e#2229#2475#0" />
-                <element signature="e#2532#2780#0" />
-                <element signature="method#test2#1;class#AtomicABATest#0" />
-                <element signature="e#3399#3577#0" />
-                <element signature="docComment;class#GarbageBag#0" />
-                <element signature="class#GarbageBag#0" />
+                <element signature="e#424#425#0" expanded="true" />
+                <element signature="e#441#442#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/LongAdderTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="457">
+              <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/concurrent/atomic/LongAdder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-722">
+              <caret line="116" column="7" lean-forward="true" selection-start-line="116" selection-start-column="7" selection-end-line="116" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/AtomicIntegerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/AtomicArrayTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="33" />
+              <folding>
+                <element signature="docComment;class#AtomicArrayTest#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/concurrent/atomic/AtomicReferenceFieldUpdater.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="177" column="22" selection-start-line="177" selection-start-column="22" selection-end-line="177" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -88,6 +120,8 @@
       <find>AtomicStampedReference</find>
       <find>effectiveLevelInt</find>
       <find>debug</find>
+      <find>DecimalAccount</find>
+      <find>Represents a supplier of results.</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -103,12 +137,17 @@
         <option value="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/n6/Account.java" />
         <option value="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/doubleSingleton/GoStackOverflow.java" />
         <option value="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/FunctionalInterfaceTest.java" />
-        <option value="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/AtomicTest.java" />
         <option value="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/Account.java" />
         <option value="$PROJECT_DIR$/day01_java_thead_01/pom.xml" />
-        <option value="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/DecimalAccount.java" />
         <option value="$PROJECT_DIR$/day01_java_thead_01/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/AtomicTest.java" />
+        <option value="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/DecimalAccount.java" />
+        <option value="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/AtomicIntegerTest.java" />
+        <option value="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/AtomicReferenceTest.java" />
         <option value="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/AtomicABATest.java" />
+        <option value="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/AtomicArrayTest.java" />
+        <option value="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/AtomicFieldTest.java" />
+        <option value="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/LongAdderTest.java" />
       </list>
     </option>
   </component>
@@ -242,7 +281,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GLCloud/gl-micro-service" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java-thead/repositroy/concurrent" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -286,20 +325,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AtomicABATest">
-    <configuration name="Account" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zlsoft.cas.Account" />
-      <module name="day01_java_thead_01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zlsoft.cas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.LongAdderTest">
     <configuration name="AtomicABATest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zlsoft.cas.AtomicABATest" />
       <module name="day01_java_thead_01" />
@@ -313,8 +339,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AtomicTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zlsoft.cas.AtomicTest" />
+    <configuration name="AtomicArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zlsoft.cas.AtomicArrayTest" />
       <module name="day01_java_thead_01" />
       <extension name="coverage">
         <pattern>
@@ -326,8 +352,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DecimalAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zlsoft.cas.DecimalAccount" />
+    <configuration name="AtomicFieldTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zlsoft.cas.AtomicFieldTest" />
       <module name="day01_java_thead_01" />
       <extension name="coverage">
         <pattern>
@@ -352,20 +378,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LongAdderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zlsoft.cas.LongAdderTest" />
+      <module name="day01_java_thead_01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zlsoft.cas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Account" />
-      <item itemvalue="Application.AtomicTest" />
       <item itemvalue="Application.FunctionalInterfaceTest" />
-      <item itemvalue="Application.DecimalAccount" />
       <item itemvalue="Application.AtomicABATest" />
+      <item itemvalue="Application.AtomicArrayTest" />
+      <item itemvalue="Application.AtomicFieldTest" />
+      <item itemvalue="Application.LongAdderTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongAdderTest" />
+        <item itemvalue="Application.AtomicFieldTest" />
+        <item itemvalue="Application.AtomicArrayTest" />
         <item itemvalue="Application.AtomicABATest" />
         <item itemvalue="Application.FunctionalInterfaceTest" />
-        <item itemvalue="Application.DecimalAccount" />
-        <item itemvalue="Application.AtomicTest" />
-        <item itemvalue="Application.Account" />
       </list>
     </recent_temporary>
   </component>
@@ -423,6 +462,7 @@
       <workItem from="1598403161500" duration="17263000" />
       <workItem from="1598519868386" duration="3034000" />
       <workItem from="1598947958086" duration="3884000" />
+      <workItem from="1599006269638" duration="11062000" />
     </task>
     <servers />
   </component>
@@ -450,7 +490,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39108000" />
+    <option name="totallyTimeSpent" value="50170000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -463,8 +503,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26599148" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26865673" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -473,14 +514,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34236187" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39219934" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.5124594" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.20368364" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38244852" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.38894907" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32936078" />
@@ -599,18 +640,23 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/AtomicABATest.java</url>
-          <line>76</line>
+          <line>78</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/AtomicABATest.java</url>
-          <line>115</line>
+          <line>117</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="500%11" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/java_thead$Test12.ic" NAME="Test12 Coverage Results" MODIFIED="1592292398258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -619,6 +665,16 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>500%11</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>500%10</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>file1.getAbsolutePath()</expression-string>
         <language-id>JAVA</language-id>
@@ -730,25 +786,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/AtomicTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="793">
-          <caret line="90" column="17" selection-start-line="90" selection-start-column="17" selection-end-line="90" selection-end-column="17" />
-          <folding>
-            <element signature="docComment;class#AtomicTest#0" />
-            <element signature="docComment;method#test1#0;class#AtomicTest#0" />
-            <element signature="method#test1#0;class#AtomicTest#0" />
-            <element signature="e#609#650#0" />
-            <element signature="e#720#761#0" />
-            <element signature="e#832#868#0" />
-            <element signature="e#934#971#0" />
-            <element signature="e#1038#1072#0" />
-            <element signature="e#1143#1176#0" />
-            <element signature="docComment;method#testAtomicUpdate#0;class#AtomicTest#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/math/BigDecimal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5909">
@@ -766,13 +803,6 @@
             <element signature="e#1707#1708#0" expanded="true" />
             <element signature="e#1735#1736#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/FunctionalInterfaceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="596">
-          <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -882,19 +912,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/DecimalAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
-          <folding>
-            <element signature="docComment;class#DecimalAccount#0" />
-            <element signature="docComment;method#test1#0;class#DecimalAccount#0" />
-            <element signature="e#2995#2996#0" expanded="true" />
-            <element signature="e#3036#3037#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/resources/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
@@ -924,34 +941,134 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/DecimalAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding>
+            <element signature="method#main#0;class#DecimalAccount#0" />
+            <element signature="docComment;method#test1#0;class#DecimalAccount#0" />
+            <element signature="method#test1#0;class#DecimalAccount#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/FunctionalInterfaceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="52" column="10" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/AtomicReferenceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/AtomicABATest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="142" column="37" selection-start-line="142" selection-start-column="24" selection-end-line="142" selection-end-column="37" />
+        <state relative-caret-position="501">
+          <caret line="178" column="6" selection-start-line="178" selection-start-column="6" selection-end-line="178" selection-end-column="6" />
           <folding>
-            <element signature="docComment;class#AtomicABATest#0" />
             <element signature="docComment;field#ref#0;class#AtomicABATest#0" />
             <element signature="docComment;field#referenceABA#0;class#AtomicABATest#0" />
             <element signature="method#main#0;class#AtomicABATest#0" />
-            <element signature="e#811#844#0" />
-            <element signature="e#1016#1034#0" />
             <element signature="n#!!doc;n#test1#0;n#AtomicABATest#0" />
             <element signature="method#test1#0;class#AtomicABATest#0" />
-            <element signature="e#986#994#0" />
             <element signature="method#other1#0;class#AtomicABATest#0" />
-            <element signature="e#1236#1329#0" />
-            <element signature="e#1386#1479#0" />
-            <element signature="n#!!doc;n#test2#0;n#AtomicABATest#0" />
             <element signature="method#test2#0;class#AtomicABATest#0" />
-            <element signature="e#1637#1645#0" />
             <element signature="method#other2#0;class#AtomicABATest#0" />
-            <element signature="e#2229#2475#0" />
-            <element signature="e#2532#2780#0" />
-            <element signature="method#test2#1;class#AtomicABATest#0" />
-            <element signature="e#3399#3577#0" />
             <element signature="docComment;class#GarbageBag#0" />
-            <element signature="class#GarbageBag#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/function/BiFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/function/Supplier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/function/BiConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/concurrent/atomic/AtomicReferenceFieldUpdater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="177" column="22" selection-start-line="177" selection-start-column="22" selection-end-line="177" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/AtomicFieldTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="22" column="35" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="35" />
+          <folding>
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/AtomicArrayTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="33" />
+          <folding>
+            <element signature="docComment;class#AtomicArrayTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/LongAdderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/concurrent/atomic/LongAdder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-722">
+          <caret line="116" column="7" lean-forward="true" selection-start-line="116" selection-start-column="7" selection-end-line="116" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/AtomicIntegerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="33" />
         </state>
       </provider>
     </entry>

@@ -9,13 +9,13 @@ import java.util.function.IntUnaryOperator;
  * @version 1.0.0
  * @RESTful：Create-post Read-get update-put/path delete-delete
  * @package: com.zlsoft.cas
- * @ClassName: AtomicTest.java
+ * @ClassName: AtomicIntegerTest.java
  * @author: L.Z QQ.191288065@qq.com
- * @Description
+ * @Description 原子整数
  * @createTime 2020年08月26日 09:41:00
  */
-@Slf4j(topic = "zl.atomicTest")
-public class AtomicTest {
+@Slf4j(topic = "zl.atomicIntegerTest")
+public class AtomicIntegerTest {
     public static void main(String[] args) {
 //        test1();
 //        test2();
@@ -27,6 +27,7 @@ public class AtomicTest {
      * 加减乘除：原子操作
      */
     private static void test1() {
+
         AtomicInteger atomicInteger = new AtomicInteger(0);
         /**
          * 先自增，在获取值 ++i 1
@@ -85,7 +86,6 @@ public class AtomicTest {
         }
         System.out.println(atomicInteger.get());
     }
-
     /**
      * 继续优化模拟一元原子操作：updateAndGet
      * unary:一元操作
