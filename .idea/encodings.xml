@@ -9,6 +9,9 @@
     <file url="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/doubleSingleton/Singleton3.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/doubleSingleton/Singleton4.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/n1/lightweightLock.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/threadPoolExecutor/cachedThreadPool/TestSynchronousQueue.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/threadPoolExecutor/forkjoinPool/TestForkJoin.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/threadPoolExecutor/threadPoolSubmit/TestStarvation.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/day01_java_thead_01/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/day01_junit_jmh_01" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/day01_junit_jmh_01/src/main/java" charset="UTF-8" />

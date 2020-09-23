@@ -2,6 +2,9 @@ package com.zlsoft.core;
 
 import java.util.concurrent.TimeUnit;
 
+/**
+ * thread sleep time
+ */
 public class Sleeper {
     public static void sleep(int i) {
         try {
