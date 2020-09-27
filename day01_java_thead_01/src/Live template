@@ -1,0 +1,10 @@
+eg:
+/**
+ * $END$
+ * @author: L.Z QQ.191288065@qq.com
+ * @createTime $date$
+*/
+
+语法说明：
+ -$END$ ：光标结束位置
+ -$XXX$ ：自定义变量

@@ -2,19 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74376a79-2656-4bd9-99b3-ed503edd66f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/reentrant/TestReentrantReadWriteLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/reentrant/TestUml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01_java_thead_01/src/Live template" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/reentrantreadwritelock/Emp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/reentrantreadwritelock/GenericDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/reentrantreadwritelock/GenericDaoCached.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/reentrantreadwritelock/LockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/reentrantreadwritelock/TestGenericDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/reentrantreadwritelock/read.MD" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day01_java_thead_01.zip" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/AqsExplain.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/AqsExplain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/reentrant/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/reentrant/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/reentrant/TestCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/reentrant/TestCondition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/reentrant/TestFair.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/reentrant/TestFair.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/reentrant/TestInterrupt.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/reentrant/TestInterrupt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/reentrant/TestReentrant.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/reentrant/TestReentrant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/reentrant/TestTimeout.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/reentrant/TestTimeout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/READ.RD" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/READ.RD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/reentrant/TestInterrupt.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/reentrant/TestInterrupt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/reentrant/TestReentrantReadWriteLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/reentrant/TestReentrantReadWriteLock.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,394 +38,57 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/AqsExplain.java">
+        <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/reentrantreadwritelock/TestGenericDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="188" column="39" lean-forward="true" selection-start-line="188" selection-start-column="39" selection-end-line="188" selection-end-column="39" />
+            <state relative-caret-position="817">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
               <folding>
-                <element signature="docComment;class#AqsExplain#0" />
-                <element signature="class#AqsExplain#0" />
-                <element signature="docComment;method#test1#0;class#AqsExplain#0" />
-                <element signature="method#test1#0;class#AqsExplain#0" />
-                <element signature="e#1859#2111#0" />
-                <element signature="e#1906#1994#0" />
-                <element signature="e#2015#2101#0" />
-                <element signature="e#2147#2399#0" />
-                <element signature="e#2194#2282#0" />
-                <element signature="e#2303#2389#0" />
-                <element signature="docComment;method#test2#0;class#AqsExplain#0" />
-                <element signature="method#test2#0;class#AqsExplain#0" />
-                <element signature="e#2650#2962#0" />
-                <element signature="e#2757#2845#0" />
-                <element signature="e#2866#2952#0" />
-                <element signature="docComment;class#MyLock#0" />
-                <element signature="docComment;class#MySync#0;class#MyLock#0" />
-                <element signature="class#MySync#0;class#MyLock#0" />
-                <element signature="docComment;method#tryAcquire#0;class#MySync#0;class#MyLock#0" />
-                <element signature="method#tryAcquire#0;class#MySync#0;class#MyLock#0" />
-                <element signature="docComment;method#tryRelease#0;class#MySync#0;class#MyLock#0" />
-                <element signature="method#tryRelease#0;class#MySync#0;class#MyLock#0" />
-                <element signature="docComment;method#isHeldExclusively#0;class#MySync#0;class#MyLock#0" />
-                <element signature="method#isHeldExclusively#0;class#MySync#0;class#MyLock#0" />
-                <element signature="docComment;method#newCondition#0;class#MySync#0;class#MyLock#0" />
-                <element signature="n#!!block;n#newCondition#0;n#MySync#0;n#MyLock#0" />
-                <element signature="docComment;method#lock#0;class#MyLock#0" />
-                <element signature="method#lock#0;class#MyLock#0" />
-                <element signature="docComment;method#lockInterruptibly#0;class#MyLock#0" />
-                <element signature="method#lockInterruptibly#0;class#MyLock#0" />
-                <element signature="docComment;method#tryLock#0;class#MyLock#0" />
-                <element signature="method#tryLock#1;class#MyLock#0" />
-                <element signature="method#unlock#0;class#MyLock#0" />
-                <element signature="docComment;method#newCondition#0;class#MyLock#0" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/reentrant/TestInterrupt.java">
+        <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/reentrantreadwritelock/GenericDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-599">
-              <caret line="60" column="33" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="33" />
-              <folding>
-                <element signature="e#417#418#0" expanded="true" />
-                <element signature="e#440#441#0" expanded="true" />
-                <element signature="method#test1#0;class#TestInterrupt#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="603">
-              <caret line="873" column="23" selection-start-line="856" selection-start-column="21" selection-end-line="873" selection-end-column="23" />
-              <folding>
-                <element signature="docComment;class#AbstractQueuedSynchronizer#0" />
-                <element signature="e#11624#11751#0" />
-                <element signature="e#11624#11798#0" />
-                <element signature="e#11804#16002#0" />
-                <element signature="e#16041#16099#0" />
-                <element signature="e#16270#16326#0" />
-                <element signature="e#16376#16446#0" />
-                <element signature="e#16496#16562#0" />
-                <element signature="e#16612#16734#0" />
-                <element signature="e#16785#18730#0" />
-                <element signature="e#18773#19375#0" />
-                <element signature="e#19413#20141#0" />
-                <element signature="e#20179#20307#0" />
-                <element signature="e#20349#20848#0" />
-                <element signature="e#20883#20957#0" />
-                <element signature="e#21053#21324#0" />
-                <element signature="e#21554#21626#0" />
-                <element signature="e#21636#21773#0" />
-                <element signature="e#21783#21927#0" />
-                <element signature="e#22211#22332#0" />
-                <element signature="e#22463#22639#0" />
-                <element signature="e#22710#22884#0" />
-                <element signature="e#22972#23426#0" />
-                <element signature="e#23671#23869#0" />
-                <element signature="e#23930#24091#0" />
-                <element signature="e#23930#24524#0" />
-                <element signature="e#24149#24518#1" />
-                <element signature="e#24205#24323#1" />
-                <element signature="e#24329#24508#1" />
-                <element signature="e#24410#24494#1" />
-                <element signature="e#25155#25398#0" />
-                <element signature="e#25155#25517#0" />
-                <element signature="e#25523#25618#0" />
-                <element signature="e#25523#26555#0" />
-                <element signature="e#25673#25885#0" />
-                <element signature="e#25999#26245#0" />
-                <element signature="e#26317#26484#1" />
-                <element signature="e#26561#26774#0" />
-                <element signature="e#26561#28061#0" />
-                <element signature="e#26820#27398#0" />
-                <element signature="e#27485#27953#1" />
-                <element signature="e#27565#27763#1" />
-                <element signature="e#28067#28345#0" />
-                <element signature="e#28067#29450#0" />
-                <element signature="e#28500#29208#0" />
-                <element signature="e#29323#29444#1" />
-                <element signature="e#29506#29598#0" />
-                <element signature="e#29506#31216#0" />
-                <element signature="e#29916#29978#0" />
-                <element signature="e#30150#30201#0" />
-                <element signature="e#30485#30549#1" />
-                <element signature="e#30555#31210#1" />
-                <element signature="e#30569#30626#0" />
-                <element signature="e#30925#31098#1" />
-                <element signature="e#31104#31158#1" />
-                <element signature="e#31932#32050#0" />
-                <element signature="e#32545#32611#0" />
-                <element signature="e#32701#32826#0" />
-                <element signature="e#32701#32953#0" />
-                <element signature="e#32959#33362#0" />
-                <element signature="e#33751#34264#0" />
-                <element signature="e#33815#34254#1" />
-                <element signature="e#33918#34094#1" />
-                <element signature="e#34357#34456#0" />
-                <element signature="e#34357#35201#0" />
-                <element signature="e#34640#35114#0" />
-                <element signature="e#34663#35104#1" />
-                <element signature="e#34766#34930#1" />
-                <element signature="e#35123#35195#0" />
-                <element signature="e#35207#35386#0" />
-                <element signature="e#35207#36531#0" />
-                <element signature="e#35710#36444#0" />
-                <element signature="e#35733#36434#1" />
-                <element signature="e#35836#36005#1" />
-                <element signature="e#36453#36525#0" />
-                <element signature="e#36537#36635#0" />
-                <element signature="e#36537#37566#0" />
-                <element signature="e#36773#37479#0" />
-                <element signature="e#36837#37469#1" />
-                <element signature="e#36921#37309#1" />
-                <element signature="e#37006#37291#1" />
-                <element signature="e#37488#37560#0" />
-                <element signature="e#37572#37668#0" />
-                <element signature="e#37572#38535#0" />
-                <element signature="e#37855#38448#0" />
-                <element signature="e#37878#38438#1" />
-                <element signature="e#37962#38264#1" />
-                <element signature="e#38047#38246#1" />
-                <element signature="e#38457#38529#0" />
-                <element signature="e#38541#38717#0" />
-                <element signature="e#38541#39984#0" />
-                <element signature="e#39044#39897#0" />
-                <element signature="e#39067#39887#1" />
-                <element signature="e#39151#39458#1" />
-                <element signature="e#39236#39440#1" />
-                <element signature="e#39906#39978#0" />
-                <element signature="e#41392#41393#0" expanded="true" />
-                <element signature="e#41449#41450#0" expanded="true" />
-                <element signature="e#41456#42519#0" />
-                <element signature="e#42626#44399#0" />
-                <element signature="e#44508#45550#0" />
-                <element signature="e#45663#46379#0" />
-                <element signature="e#47219#47942#0" />
-                <element signature="e#47219#48193#0" />
-                <element signature="e#48199#49150#0" />
-                <element signature="e#48199#49428#0" />
-                <element signature="e#49434#49892#0" />
-                <element signature="e#49434#50141#0" />
-                <element signature="e#49966#50113#1" />
-                <element signature="e#50147#50657#0" />
-                <element signature="e#50147#50783#0" />
-                <element signature="e#50789#51429#0" />
-                <element signature="e#50789#51701#0" />
-                <element signature="e#51707#52583#0" />
-                <element signature="e#51707#52884#0" />
-                <element signature="e#52890#53291#0" />
-                <element signature="e#52890#53472#0" />
-                <element signature="e#53377#53444#1" />
-                <element signature="e#53511#53943#0" />
-                <element signature="e#54030#54338#0" />
-                <element signature="e#54421#54884#0" />
-                <element signature="e#54421#55051#0" />
-                <element signature="e#55057#55134#0" />
-                <element signature="e#55057#56445#0" />
-                <element signature="e#55191#55560#0" />
-                <element signature="e#55865#56181#0" />
-                <element signature="e#56280#56411#1" />
-                <element signature="e#56451#56791#0" />
-                <element signature="e#56451#57060#0" />
-                <element signature="e#57066#57526#0" />
-                <element signature="e#57066#57747#0" />
-                <element signature="e#57753#59582#0" />
-                <element signature="e#57753#60023#0" />
-                <element signature="e#59642#59702#0" />
-                <element signature="e#60077#60500#0" />
-                <element signature="e#60077#60701#0" />
-                <element signature="e#60611#60677#1" />
-                <element signature="e#60707#61219#0" />
-                <element signature="e#60707#61513#0" />
-                <element signature="e#61386#61486#1" />
-                <element signature="e#61519#61833#0" />
-                <element signature="e#61519#62195#0" />
-                <element signature="e#62009#62168#1" />
-                <element signature="e#62042#62158#1" />
-                <element signature="e#62201#62508#0" />
-                <element signature="e#62201#62866#0" />
-                <element signature="e#62681#62839#1" />
-                <element signature="e#62713#62829#1" />
-                <element signature="e#62872#63275#0" />
-                <element signature="e#62872#63484#0" />
-                <element signature="e#63539#63756#0" />
-                <element signature="e#63539#64444#0" />
-                <element signature="e#64001#64399#0" />
-                <element signature="e#64450#64620#0" />
-                <element signature="e#64450#64865#0" />
-                <element signature="e#64711#64859#1" />
-                <element signature="e#64871#65108#0" />
-                <element signature="e#64871#65850#0" />
-                <element signature="e#65166#65249#0" />
-                <element signature="e#65348#65651#0" />
-                <element signature="e#65856#66108#0" />
-                <element signature="e#65856#66613#0" />
-                <element signature="e#66229#66288#1" />
-                <element signature="e#66297#66520#0" />
-                <element signature="e#66619#66840#0" />
-                <element signature="e#66619#67275#0" />
-                <element signature="e#66924#67175#0" />
-                <element signature="e#67004#67086#1" />
-                <element signature="e#67092#67165#1" />
-                <element signature="e#67184#67269#0" />
-                <element signature="e#67328#67574#0" />
-                <element signature="e#67687#68462#0" />
-                <element signature="e#67687#68663#0" />
-                <element signature="e#68669#69455#0" />
-                <element signature="e#68669#69668#0" />
-                <element signature="e#69674#70431#0" />
-                <element signature="e#69674#70657#0" />
-                <element signature="e#70663#71325#0" />
-                <element signature="e#70663#88382#0" />
-                <element signature="e#71577#71613#0" />
-                <element signature="e#71666#71740#0" />
-                <element signature="e#71666#71777#0" />
-                <element signature="e#71816#71912#0" />
-                <element signature="e#71816#72451#0" />
-                <element signature="e#72105#72194#1" />
-                <element signature="e#72461#72730#0" />
-                <element signature="e#72461#73047#0" />
-                <element signature="e#72790#72948#1" />
-                <element signature="e#73057#73185#0" />
-                <element signature="e#73057#73500#0" />
-                <element signature="e#73293#73467#1" />
-                <element signature="e#73510#74274#0" />
-                <element signature="e#73510#74915#0" />
-                <element signature="e#74418#74905#1" />
-                <element signature="e#74514#74813#1" />
-                <element signature="e#74952#75257#0" />
-                <element signature="e#74952#75502#0" />
-                <element signature="e#75512#75775#0" />
-                <element signature="e#75512#76026#0" />
-                <element signature="e#76036#76501#0" />
-                <element signature="e#76036#76974#0" />
-                <element signature="e#76730#76867#1" />
-                <element signature="e#76984#77253#0" />
-                <element signature="e#77263#77315#0" />
-                <element signature="e#77375#77442#0" />
-                <element signature="e#77503#77682#0" />
-                <element signature="e#77503#77891#0" />
-                <element signature="e#77901#78032#0" />
-                <element signature="e#77901#78326#0" />
-                <element signature="e#78336#78976#0" />
-                <element signature="e#78336#79793#0" />
-                <element signature="e#79300#79459#1" />
-                <element signature="e#79803#80447#0" />
-                <element signature="e#79803#81680#0" />
-                <element signature="e#80877#81322#1" />
-                <element signature="e#80919#81019#1" />
-                <element signature="e#81690#82422#0" />
-                <element signature="e#81690#83550#0" />
-                <element signature="e#82868#83211#1" />
-                <element signature="e#82928#83039#1" />
-                <element signature="e#83560#84283#0" />
-                <element signature="e#83560#85603#0" />
-                <element signature="e#84808#85264#1" />
-                <element signature="e#84850#84961#1" />
-                <element signature="e#85654#85823#0" />
-                <element signature="e#85970#86336#0" />
-                <element signature="e#85970#86684#0" />
-                <element signature="e#86548#86648#1" />
-                <element signature="e#86694#87086#0" />
-                <element signature="e#86694#87449#0" />
-                <element signature="e#87325#87417#1" />
-                <element signature="e#87459#87849#0" />
-                <element signature="e#87459#88376#0" />
-                <element signature="e#88141#88341#1" />
-                <element signature="e#88195#88327#1" />
-                <element signature="e#88388#88865#0" />
-                <element signature="initializer##0;class#AbstractQueuedSynchronizer#0" />
-                <element signature="e#89170#89787#0" />
-                <element signature="e#89845#89897#0" />
-                <element signature="e#89845#90038#0" />
-                <element signature="e#90044#90096#0" />
-                <element signature="e#90044#90252#0" />
-                <element signature="e#90258#90308#0" />
-                <element signature="e#90258#90643#0" />
-                <element signature="e#90649#90693#0" />
-                <element signature="e#90649#90969#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/reentrant/TestCondition.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
-              <folding>
-                <element signature="method#test1#0;class#TestCondition#0" />
-              </folding>
+            <state relative-caret-position="931">
+              <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/reentrant/TestReentrantReadWriteLock.java">
+        <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/reentrantreadwritelock/GenericDaoCached.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+            <state relative-caret-position="360">
+              <caret line="84" column="19" lean-forward="true" selection-start-line="84" selection-start-column="19" selection-end-line="84" selection-end-column="19" />
+              <folding>
+                <element signature="docComment;class#GenericDaoCached#0" />
+                <element signature="method#queryList#0;class#GenericDaoCached#0" />
+                <element signature="docComment;field#sql#0;class#SqlPair#0;class#GenericDaoCached#0" />
+                <element signature="docComment;field#args#0;class#SqlPair#0;class#GenericDaoCached#0" />
+                <element signature="method#SqlPair#0;class#SqlPair#0;class#GenericDaoCached#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+        <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/reentrantreadwritelock/read.MD">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/READ.RD">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1">
-              <caret line="256" column="28" selection-start-line="256" selection-start-column="28" selection-end-line="256" selection-end-column="28" />
-              <folding>
-                <element signature="docComment;class#ReentrantLock#0" />
-                <element signature="docComment;field#sync#0;class#ReentrantLock#0" />
-                <element signature="docComment;class#Sync#0;class#ReentrantLock#0" />
-                <element signature="method#isHeldExclusively#0;class#Sync#0;class#ReentrantLock#0" />
-                <element signature="e#5307#5359#0" />
-                <element signature="docComment;method#readObject#0;class#Sync#0;class#ReentrantLock#0" />
-                <element signature="method#readObject#0;class#Sync#0;class#ReentrantLock#0" />
-                <element signature="docComment;class#NonfairSync#0;class#ReentrantLock#0" />
-                <element signature="docComment;method#lock#0;class#NonfairSync#0;class#ReentrantLock#0" />
-                <element signature="e#6849#6850#0" expanded="true" />
-                <element signature="e#6907#6908#0" expanded="true" />
-                <element signature="docComment;method#tryAcquire#0;class#FairSync#0;class#ReentrantLock#0" />
-                <element signature="method#tryAcquire#0;class#FairSync#0;class#ReentrantLock#0" />
-                <element signature="e#7470#7693#1" />
-                <element signature="e#7573#7679#1" />
-                <element signature="e#7753#7971#1" />
-                <element signature="docComment;method#ReentrantLock#0;class#ReentrantLock#0" />
-                <element signature="e#8176#8177#0" expanded="true" />
-                <element signature="e#8216#8217#0" expanded="true" />
-                <element signature="docComment;method#ReentrantLock#1;class#ReentrantLock#0" />
-                <element signature="docComment;method#lock#0;class#ReentrantLock#0" />
-                <element signature="docComment;method#lockInterruptibly#0;class#ReentrantLock#0" />
-                <element signature="method#lockInterruptibly#0;class#ReentrantLock#0" />
-                <element signature="docComment;method#tryLock#0;class#ReentrantLock#0" />
-                <element signature="docComment;method#tryLock#1;class#ReentrantLock#0" />
-                <element signature="method#tryLock#1;class#ReentrantLock#0" />
-                <element signature="docComment;method#unlock#0;class#ReentrantLock#0" />
-                <element signature="docComment;method#newCondition#0;class#ReentrantLock#0" />
-                <element signature="docComment;method#getHoldCount#0;class#ReentrantLock#0" />
-                <element signature="docComment;method#isHeldByCurrentThread#0;class#ReentrantLock#0" />
-                <element signature="docComment;method#isLocked#0;class#ReentrantLock#0" />
-                <element signature="docComment;method#isFair#0;class#ReentrantLock#0" />
-                <element signature="docComment;method#getOwner#0;class#ReentrantLock#0" />
-                <element signature="docComment;method#hasQueuedThreads#0;class#ReentrantLock#0" />
-                <element signature="docComment;method#hasQueuedThread#0;class#ReentrantLock#0" />
-                <element signature="docComment;method#getQueueLength#0;class#ReentrantLock#0" />
-                <element signature="docComment;method#getQueuedThreads#0;class#ReentrantLock#0" />
-                <element signature="docComment;method#hasWaiters#0;class#ReentrantLock#0" />
-                <element signature="method#hasWaiters#0;class#ReentrantLock#0" />
-                <element signature="docComment;method#getWaitQueueLength#0;class#ReentrantLock#0" />
-                <element signature="method#getWaitQueueLength#0;class#ReentrantLock#0" />
-                <element signature="docComment;method#getWaitingThreads#0;class#ReentrantLock#0" />
-                <element signature="method#getWaitingThreads#0;class#ReentrantLock#0" />
-                <element signature="docComment;method#toString#0;class#ReentrantLock#0" />
-                <element signature="method#toString#0;class#ReentrantLock#0" />
-              </folding>
+            <state relative-caret-position="209">
+              <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -437,13 +101,13 @@
         <option value="Interface" />
         <option value="FxmlFile" />
         <option value="Class" />
+        <option value="UML Sequence" />
+        <option value="UML Use Case" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>newFixedThreadPool</find>
-      <find>RUNNING</find>
       <find>ThreadPoolExecutor</find>
       <find>debug</find>
       <find>fixedThreadPoolTest</find>
@@ -472,6 +136,8 @@
       <find>class</find>
       <find>The synchronization state</find>
       <find>tail</find>
+      <find>URL</find>
+      <find>java.lang.IllegalArgumentException: argument type mismatch</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -486,12 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/n6/Account.java" />
-        <option value="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/doubleSingleton/GoStackOverflow.java" />
-        <option value="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/FunctionalInterfaceTest.java" />
-        <option value="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/Account.java" />
-        <option value="$PROJECT_DIR$/day01_java_thead_01/pom.xml" />
-        <option value="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/AtomicTest.java" />
         <option value="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/DecimalAccount.java" />
         <option value="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/AtomicIntegerTest.java" />
         <option value="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/AtomicReferenceTest.java" />
@@ -531,7 +191,18 @@
         <option value="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/AqsExplain.java" />
         <option value="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/reentrant/TestCondition.java" />
         <option value="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/reentrant/TestInterrupt.java" />
+        <option value="$PROJECT_DIR$/day01_java_thead_01/src/Live template" />
         <option value="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/reentrant/TestReentrantReadWriteLock.java" />
+        <option value="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/reentrantreadwritelock/LockTest.java" />
+        <option value="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/reentrantreadwritelock/GenericDao.java" />
+        <option value="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/reentrantreadwritelock/Emp.java" />
+        <option value="$PROJECT_DIR$/day01_java_thead_01/pom.xml" />
+        <option value="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/reentrantreadwritelock/TestGenericDao.java" />
+        <option value="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/reentrantreadwritelock/umlSequence.puml" />
+        <option value="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/reentrantreadwritelock/read.MD" />
+        <option value="$PROJECT_DIR$/day01_java_thead_01/src/READ.RD" />
+        <option value="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/reentrantreadwritelock/first.puml" />
+        <option value="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/reentrantreadwritelock/GenericDaoCached.java" />
       </list>
     </option>
   </component>
@@ -561,9 +232,9 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="137" />
+    <option name="y" value="124" />
     <option name="width" value="1300" />
     <option name="height" value="807" />
   </component>
@@ -576,6 +247,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -637,7 +310,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="zlsoft" type="462c0819:PsiDirectoryNode" />
               <item name="aqs" type="462c0819:PsiDirectoryNode" />
-              <item name="reentrant" type="462c0819:PsiDirectoryNode" />
+              <item name="reentrantreadwritelock" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-thead1" type="b2602c69:ProjectViewProjectNode" />
@@ -658,8 +331,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -668,6 +339,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultPlantUmlFileTemplate" value="UML Use Case" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -677,7 +349,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/reentrantreadwritelock" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -689,25 +361,25 @@
     <property name="project.structure.side.proportion" value="0.43563217" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\java-thead1\day01_java_thead_01\src\main\java\com\zlsoft\juc\aqs" />
-      <recent name="F:\java-thead1\day01_java_thead_01\src\main\java\com\zlsoft\threadPoolExecutor\forkjoinPool" />
-      <recent name="F:\java-thead\day01_java_thead_01\src\main\java\com\zlsoft\volatileThread" />
-      <recent name="F:\java-thead\day01_java_thead_01\src\main\java\com\zlsoft\yh" />
-      <recent name="F:\java-thead\jmh_eliminate_locks\src" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\java-thead\day02_jmh_spring_01\src\test\java\com\zlsoft\n0" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zlsoft.juc.aqs.reentrantreadwritelock" />
       <recent name="com.zlsoft.threadPoolExecutor.threadPoolSubmit" />
       <recent name="com.zlsoft.threadPoolExecutor.cachedThreadPool" />
       <recent name="com.zlsoft.threadPoolExecutor.fixedThreadPool" />
       <recent name="com.zlsoft.threadPoolExecutor" />
-      <recent name="com.zlsoft.test" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\java-thead\day02_jmh_spring_01\src\test\java\com\zlsoft\n0" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\java-thead1\day01_java_thead_01\src\main\java\com\zlsoft\juc\aqs\reentrantreadwritelock" />
+      <recent name="F:\java-thead1\day01_java_thead_01\src\main\java\com\zlsoft\juc\aqs" />
+      <recent name="F:\java-thead1\day01_java_thead_01\src\main\java\com\zlsoft\threadPoolExecutor\forkjoinPool" />
+      <recent name="F:\java-thead\day01_java_thead_01\src\main\java\com\zlsoft\volatileThread" />
+      <recent name="F:\java-thead\day01_java_thead_01\src\main\java\com\zlsoft\yh" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -722,26 +394,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestInterrupt">
+  <component name="RunManager" selected="Application.TestGenericDao">
     <configuration name="AqsExplain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zlsoft.juc.aqs.AqsExplain" />
       <module name="day01_java_thead_01" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zlsoft.juc.aqs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ScheduledTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zlsoft.threadPoolExecutor.delay.ScheduledTest" />
-      <module name="day01_java_thead_01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zlsoft.threadPoolExecutor.delay.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -762,6 +421,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestGenericDao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zlsoft.juc.aqs.reentrantreadwritelock.TestGenericDao" />
+      <module name="day01_java_thead_01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zlsoft.juc.aqs.reentrantreadwritelock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestInterrupt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zlsoft.juc.aqs.reentrant.TestInterrupt" />
       <module name="day01_java_thead_01" />
@@ -775,12 +447,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSubmit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zlsoft.threadPoolExecutor.threadPoolSubmit.TestSubmit" />
+    <configuration name="TestReentrantReadWriteLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zlsoft.juc.aqs.reentrant.TestReentrantReadWriteLock" />
       <module name="day01_java_thead_01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zlsoft.threadPoolExecutor.threadPoolSubmit.*" />
+          <option name="PATTERN" value="com.zlsoft.juc.aqs.reentrant.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -789,19 +461,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestSubmit" />
-      <item itemvalue="Application.ScheduledTest" />
       <item itemvalue="Application.AqsExplain" />
       <item itemvalue="Application.TestBase" />
       <item itemvalue="Application.TestInterrupt" />
+      <item itemvalue="Application.TestReentrantReadWriteLock" />
+      <item itemvalue="Application.TestGenericDao" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestGenericDao" />
+        <item itemvalue="Application.TestReentrantReadWriteLock" />
         <item itemvalue="Application.TestInterrupt" />
         <item itemvalue="Application.TestBase" />
         <item itemvalue="Application.AqsExplain" />
-        <item itemvalue="Application.ScheduledTest" />
-        <item itemvalue="Application.TestSubmit" />
       </list>
     </recent_temporary>
   </component>
@@ -872,7 +544,8 @@
       <workItem from="1600737225305" duration="5414000" />
       <workItem from="1600908671391" duration="18427000" />
       <workItem from="1601002532641" duration="10641000" />
-      <workItem from="1601168385504" duration="2413000" />
+      <workItem from="1601168385504" duration="15257000" />
+      <workItem from="1601195925205" duration="3314000" />
     </task>
     <servers />
   </component>
@@ -900,7 +573,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142612000" />
+    <option name="totallyTimeSpent" value="158770000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -915,7 +588,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20522387" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16950959" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -925,8 +598,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.2156013" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2979415" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.38244852" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.032502707" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4637053" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
@@ -938,6 +611,7 @@
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.32936078" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.32936078" />
+      <window_info anchor="right" id="PlantUML" weight="0.32995737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1153,7 +827,8 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="500%11" language="JAVA" />
+        <watch expression="args.length" language="JAVA" />
+        <watch expression="mapper.map(rs)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
@@ -1164,6 +839,16 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>mapper.map(rs)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>args.length</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>500%11</expression-string>
         <language-id>JAVA</language-id>
@@ -1198,214 +883,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/AtomicABATest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/AtomicFieldTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/AtomicIntegerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1152">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/AtomicReferenceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="64" column="11" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/FunctionalInterfaceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-133">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/volatilesfence/volatileTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/volatilesfence/firstGig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/LongAdderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="46" column="6" lean-forward="true" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/cas/AtomicArrayTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="66" column="16" selection-start-line="66" selection-start-column="16" selection-end-line="77" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.3.RELEASE/spring-core-5.2.3.RELEASE.jar!/org/springframework/core/task/support/ExecutorServiceAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/threadPoolExecutor/threadPoolSubmit/ThreadPoolSubmitTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/concurrent/Executor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="745">
-          <caret line="139" column="9" selection-start-line="139" selection-start-column="9" selection-end-line="139" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/threadPoolExecutor/threadPoolSubmit/TestStarvation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="32" column="15" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="32" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1241#1613#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/core/Sleeper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/concurrent/Executors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="90" column="60" lean-forward="true" selection-start-line="90" selection-start-column="48" selection-end-line="90" selection-end-column="60" />
-          <folding>
-            <element signature="docComment;class#Executors#0" />
-            <element signature="docComment;method#newWorkStealingPool#0;class#Executors#0" />
-            <element signature="method#newWorkStealingPool#0;class#Executors#0" />
-            <element signature="docComment;method#newWorkStealingPool#1;class#Executors#0" />
-            <element signature="method#newWorkStealingPool#1;class#Executors#0" />
-            <element signature="docComment;method#newSingleThreadExecutor#0;class#Executors#0" />
-            <element signature="method#newSingleThreadExecutor#0;class#Executors#0" />
-            <element signature="docComment;method#newSingleThreadExecutor#1;class#Executors#0" />
-            <element signature="method#newSingleThreadExecutor#1;class#Executors#0" />
-            <element signature="docComment;method#newCachedThreadPool#1;class#Executors#0" />
-            <element signature="method#newCachedThreadPool#1;class#Executors#0" />
-            <element signature="docComment;method#newSingleThreadScheduledExecutor#0;class#Executors#0" />
-            <element signature="method#newSingleThreadScheduledExecutor#0;class#Executors#0" />
-            <element signature="docComment;method#newSingleThreadScheduledExecutor#1;class#Executors#0" />
-            <element signature="method#newSingleThreadScheduledExecutor#1;class#Executors#0" />
-            <element signature="docComment;method#newScheduledThreadPool#0;class#Executors#0" />
-            <element signature="method#newScheduledThreadPool#0;class#Executors#0" />
-            <element signature="docComment;method#newScheduledThreadPool#1;class#Executors#0" />
-            <element signature="method#newScheduledThreadPool#1;class#Executors#0" />
-            <element signature="docComment;method#unconfigurableExecutorService#0;class#Executors#0" />
-            <element signature="method#unconfigurableExecutorService#0;class#Executors#0" />
-            <element signature="docComment;method#unconfigurableScheduledExecutorService#0;class#Executors#0" />
-            <element signature="method#unconfigurableScheduledExecutorService#0;class#Executors#0" />
-            <element signature="docComment;method#defaultThreadFactory#0;class#Executors#0" />
-            <element signature="e#15215#15216#0" expanded="true" />
-            <element signature="e#15264#15265#0" expanded="true" />
-            <element signature="docComment;method#privilegedThreadFactory#0;class#Executors#0" />
-            <element signature="docComment;method#callable#0;class#Executors#0" />
-            <element signature="method#callable#0;class#Executors#0" />
-            <element signature="docComment;method#callable#1;class#Executors#0" />
-            <element signature="method#callable#1;class#Executors#0" />
-            <element signature="docComment;method#callable#2;class#Executors#0" />
-            <element signature="method#callable#2;class#Executors#0" />
-            <element signature="docComment;method#callable#3;class#Executors#0" />
-            <element signature="method#callable#3;class#Executors#0" />
-            <element signature="docComment;method#privilegedCallable#0;class#Executors#0" />
-            <element signature="method#privilegedCallable#0;class#Executors#0" />
-            <element signature="docComment;method#privilegedCallableUsingCurrentClassLoader#0;class#Executors#0" />
-            <element signature="method#privilegedCallableUsingCurrentClassLoader#0;class#Executors#0" />
-            <element signature="docComment;class#RunnableAdapter#0;class#Executors#0" />
-            <element signature="class#RunnableAdapter#0;class#Executors#0" />
-            <element signature="method#RunnableAdapter#0;class#RunnableAdapter#0;class#Executors#0" />
-            <element signature="method#call#0;class#RunnableAdapter#0;class#Executors#0" />
-            <element signature="docComment;class#PrivilegedCallable#0;class#Executors#0" />
-            <element signature="class#PrivilegedCallable#0;class#Executors#0" />
-            <element signature="method#PrivilegedCallable#0;class#PrivilegedCallable#0;class#Executors#0" />
-            <element signature="method#call#0;class#PrivilegedCallable#0;class#Executors#0" />
-            <element signature="e#22395#22682#0" />
-            <element signature="e#22719#22774#0" />
-            <element signature="docComment;class#PrivilegedCallableUsingCurrentClassLoader#0;class#Executors#0" />
-            <element signature="class#PrivilegedCallableUsingCurrentClassLoader#0;class#Executors#0" />
-            <element signature="method#PrivilegedCallableUsingCurrentClassLoader#0;class#PrivilegedCallableUsingCurrentClassLoader#0;class#Executors#0" />
-            <element signature="e#23290#23818#1" />
-            <element signature="e#23308#23357#0" />
-            <element signature="e#23590#23648#0" />
-            <element signature="method#call#0;class#PrivilegedCallableUsingCurrentClassLoader#0;class#Executors#0" />
-            <element signature="e#24044#24881#0" />
-            <element signature="e#24393#24476#1" />
-            <element signature="e#24482#24812#1" />
-            <element signature="e#24582#24673#0" />
-            <element signature="e#24682#24782#0" />
-            <element signature="e#24918#24973#0" />
-            <element signature="docComment;class#DefaultThreadFactory#0;class#Executors#0" />
-            <element signature="docComment;class#PrivilegedThreadFactory#0;class#Executors#0" />
-            <element signature="class#PrivilegedThreadFactory#0;class#Executors#0" />
-            <element signature="method#PrivilegedThreadFactory#0;class#PrivilegedThreadFactory#0;class#Executors#0" />
-            <element signature="e#26521#26931#1" />
-            <element signature="e#26539#26588#0" />
-            <element signature="method#newThread#0;class#PrivilegedThreadFactory#0;class#Executors#0" />
-            <element signature="docComment;class#DelegatedExecutorService#0;class#Executors#0" />
-            <element signature="class#DelegatedExecutorService#0;class#Executors#0" />
-            <element signature="method#DelegatedExecutorService#0;class#DelegatedExecutorService#0;class#Executors#0" />
-            <element signature="method#execute#0;class#DelegatedExecutorService#0;class#Executors#0" />
-            <element signature="method#shutdown#0;class#DelegatedExecutorService#0;class#Executors#0" />
-            <element signature="method#shutdownNow#0;class#DelegatedExecutorService#0;class#Executors#0" />
-            <element signature="method#isShutdown#0;class#DelegatedExecutorService#0;class#Executors#0" />
-            <element signature="method#isTerminated#0;class#DelegatedExecutorService#0;class#Executors#0" />
-            <element signature="method#awaitTermination#0;class#DelegatedExecutorService#0;class#Executors#0" />
-            <element signature="method#invokeAll#0;class#DelegatedExecutorService#0;class#Executors#0" />
-            <element signature="method#invokeAll#1;class#DelegatedExecutorService#0;class#Executors#0" />
-            <element signature="method#invokeAny#0;class#DelegatedExecutorService#0;class#Executors#0" />
-            <element signature="method#invokeAny#1;class#DelegatedExecutorService#0;class#Executors#0" />
-            <element signature="class#FinalizableDelegatedExecutorService#0;class#Executors#0" />
-            <element signature="docComment;class#DelegatedScheduledExecutorService#0;class#Executors#0" />
-            <element signature="class#DelegatedScheduledExecutorService#0;class#Executors#0" />
-            <element signature="method#DelegatedScheduledExecutorService#0;class#DelegatedScheduledExecutorService#0;class#Executors#0" />
-            <element signature="method#schedule#0;class#DelegatedScheduledExecutorService#0;class#Executors#0" />
-            <element signature="method#schedule#1;class#DelegatedScheduledExecutorService#0;class#Executors#0" />
-            <element signature="method#scheduleAtFixedRate#0;class#DelegatedScheduledExecutorService#0;class#Executors#0" />
-            <element signature="method#scheduleWithFixedDelay#0;class#DelegatedScheduledExecutorService#0;class#Executors#0" />
-            <element signature="docComment;method#Executors#0;class#Executors#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/concurrent/ExecutorService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -1984,150 +1461,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/concurrent/locks/ReentrantReadWriteLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="221" column="49" lean-forward="true" selection-start-line="221" selection-start-column="49" selection-end-line="221" selection-end-column="49" />
-          <folding>
-            <element signature="docComment;class#ReentrantReadWriteLock#0" />
-            <element signature="docComment;field#readerLock#0;class#ReentrantReadWriteLock#0" />
-            <element signature="docComment;field#writerLock#0;class#ReentrantReadWriteLock#0" />
-            <element signature="docComment;field#sync#0;class#ReentrantReadWriteLock#0" />
-            <element signature="docComment;method#ReentrantReadWriteLock#0;class#ReentrantReadWriteLock#0" />
-            <element signature="docComment;method#ReentrantReadWriteLock#1;class#ReentrantReadWriteLock#0" />
-            <element signature="method#ReentrantReadWriteLock#1;class#ReentrantReadWriteLock#0" />
-            <element signature="method#writeLock#0;class#ReentrantReadWriteLock#0" />
-            <element signature="method#readLock#0;class#ReentrantReadWriteLock#0" />
-            <element signature="docComment;class#Sync#0;class#ReentrantReadWriteLock#0" />
-            <element signature="class#Sync#0;class#ReentrantReadWriteLock#0" />
-            <element signature="e#8621#8906#0" />
-            <element signature="docComment;method#sharedCount#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
-            <element signature="method#sharedCount#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
-            <element signature="docComment;method#exclusiveCount#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
-            <element signature="method#exclusiveCount#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
-            <element signature="docComment;class#HoldCounter#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
-            <element signature="class#HoldCounter#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
-            <element signature="docComment;class#ThreadLocalHoldCounter#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
-            <element signature="class#ThreadLocalHoldCounter#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
-            <element signature="docComment;field#readHolds#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
-            <element signature="docComment;field#cachedHoldCounter#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
-            <element signature="docComment;field#firstReader#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
-            <element signature="method#Sync#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
-            <element signature="e#12265#12452#0" />
-            <element signature="docComment;method#readerShouldBlock#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
-            <element signature="docComment;method#writerShouldBlock#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
-            <element signature="e#13023#13299#0" />
-            <element signature="method#tryRelease#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
-            <element signature="method#tryAcquire#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
-            <element signature="e#13763#14262#0" />
-            <element signature="e#14411#14835#1" />
-            <element signature="method#tryReleaseShared#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
-            <element signature="e#15197#15416#1" />
-            <element signature="e#15422#15849#1" />
-            <element signature="e#15654#15807#1" />
-            <element signature="e#15871#16262#1" />
-            <element signature="e#16024#16076#0" />
-            <element signature="method#unmatchedUnlockException#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
-            <element signature="method#tryAcquireShared#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
-            <element signature="e#16561#17329#0" />
-            <element signature="e#17703#18314#1" />
-            <element signature="e#17733#17841#1" />
-            <element signature="e#17875#17938#1" />
-            <element signature="e#17944#18274#1" />
-            <element signature="docComment;method#fullTryAcquireShared#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
-            <element signature="method#fullTryAcquireShared#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
-            <element signature="e#18606#18871#0" />
-            <element signature="e#18928#20957#1" />
-            <element signature="e#19010#19241#1" />
-            <element signature="e#19129#19178#0" />
-            <element signature="e#19272#20000#1" />
-            <element signature="e#19486#19982#1" />
-            <element signature="e#19528#19878#1" />
-            <element signature="e#19660#19852#1" />
-            <element signature="e#20178#20943#1" />
-            <element signature="e#20225#20345#1" />
-            <element signature="e#20379#20450#1" />
-            <element signature="e#20456#20895#1" />
-            <element signature="docComment;method#tryWriteLock#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
-            <element signature="method#tryWriteLock#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
-            <element signature="e#21323#21587#1" />
-            <element signature="docComment;method#tryReadLock#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
-            <element signature="method#tryReadLock#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
-            <element signature="e#22070#23138#1" />
-            <element signature="e#22450#23124#1" />
-            <element signature="e#22484#22604#1" />
-            <element signature="e#22638#22709#1" />
-            <element signature="e#22715#23073#1" />
-            <element signature="method#isHeldExclusively#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
-            <element signature="e#23216#23268#0" />
-            <element signature="method#getOwner#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
-            <element signature="method#getReadHoldCount#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
-            <element signature="docComment;method#readObject#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
-            <element signature="method#readObject#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
-            <element signature="method#getCount#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
-            <element signature="docComment;class#NonfairSync#0;class#ReentrantReadWriteLock#0" />
-            <element signature="class#NonfairSync#0;class#ReentrantReadWriteLock#0" />
-            <element signature="method#readerShouldBlock#0;class#NonfairSync#0;class#ReentrantReadWriteLock#0" />
-            <element signature="e#25439#25859#0" />
-            <element signature="docComment;class#FairSync#0;class#ReentrantReadWriteLock#0" />
-            <element signature="class#FairSync#0;class#ReentrantReadWriteLock#0" />
-            <element signature="docComment;class#ReadLock#0;class#ReentrantReadWriteLock#0" />
-            <element signature="class#ReadLock#0;class#ReentrantReadWriteLock#0" />
-            <element signature="docComment;method#ReadLock#0;class#ReadLock#0;class#ReentrantReadWriteLock#0" />
-            <element signature="docComment;method#lock#0;class#ReadLock#0;class#ReentrantReadWriteLock#0" />
-            <element signature="docComment;method#lockInterruptibly#0;class#ReadLock#0;class#ReentrantReadWriteLock#0" />
-            <element signature="method#lockInterruptibly#0;class#ReadLock#0;class#ReentrantReadWriteLock#0" />
-            <element signature="docComment;method#tryLock#0;class#ReadLock#0;class#ReentrantReadWriteLock#0" />
-            <element signature="docComment;method#tryLock#1;class#ReadLock#0;class#ReentrantReadWriteLock#0" />
-            <element signature="method#tryLock#1;class#ReadLock#0;class#ReentrantReadWriteLock#0" />
-            <element signature="docComment;method#unlock#0;class#ReadLock#0;class#ReentrantReadWriteLock#0" />
-            <element signature="docComment;method#newCondition#0;class#ReadLock#0;class#ReentrantReadWriteLock#0" />
-            <element signature="docComment;method#toString#0;class#ReadLock#0;class#ReentrantReadWriteLock#0" />
-            <element signature="method#toString#0;class#ReadLock#0;class#ReentrantReadWriteLock#0" />
-            <element signature="docComment;class#WriteLock#0;class#ReentrantReadWriteLock#0" />
-            <element signature="class#WriteLock#0;class#ReentrantReadWriteLock#0" />
-            <element signature="docComment;method#WriteLock#0;class#WriteLock#0;class#ReentrantReadWriteLock#0" />
-            <element signature="docComment;method#lock#0;class#WriteLock#0;class#ReentrantReadWriteLock#0" />
-            <element signature="docComment;method#lockInterruptibly#0;class#WriteLock#0;class#ReentrantReadWriteLock#0" />
-            <element signature="method#lockInterruptibly#0;class#WriteLock#0;class#ReentrantReadWriteLock#0" />
-            <element signature="docComment;method#tryLock#0;class#WriteLock#0;class#ReentrantReadWriteLock#0" />
-            <element signature="docComment;method#tryLock#1;class#WriteLock#0;class#ReentrantReadWriteLock#0" />
-            <element signature="method#tryLock#1;class#WriteLock#0;class#ReentrantReadWriteLock#0" />
-            <element signature="docComment;method#unlock#0;class#WriteLock#0;class#ReentrantReadWriteLock#0" />
-            <element signature="docComment;method#newCondition#0;class#WriteLock#0;class#ReentrantReadWriteLock#0" />
-            <element signature="docComment;method#toString#0;class#WriteLock#0;class#ReentrantReadWriteLock#0" />
-            <element signature="method#toString#0;class#WriteLock#0;class#ReentrantReadWriteLock#0" />
-            <element signature="docComment;method#isHeldByCurrentThread#0;class#WriteLock#0;class#ReentrantReadWriteLock#0" />
-            <element signature="docComment;method#getHoldCount#0;class#WriteLock#0;class#ReentrantReadWriteLock#0" />
-            <element signature="docComment;method#isFair#0;class#ReentrantReadWriteLock#0" />
-            <element signature="docComment;method#getOwner#0;class#ReentrantReadWriteLock#0" />
-            <element signature="docComment;method#getReadLockCount#0;class#ReentrantReadWriteLock#0" />
-            <element signature="docComment;method#isWriteLocked#0;class#ReentrantReadWriteLock#0" />
-            <element signature="docComment;method#isWriteLockedByCurrentThread#0;class#ReentrantReadWriteLock#0" />
-            <element signature="docComment;method#getWriteHoldCount#0;class#ReentrantReadWriteLock#0" />
-            <element signature="docComment;method#getReadHoldCount#0;class#ReentrantReadWriteLock#0" />
-            <element signature="docComment;method#getQueuedWriterThreads#0;class#ReentrantReadWriteLock#0" />
-            <element signature="docComment;method#getQueuedReaderThreads#0;class#ReentrantReadWriteLock#0" />
-            <element signature="docComment;method#hasQueuedThreads#0;class#ReentrantReadWriteLock#0" />
-            <element signature="docComment;method#hasQueuedThread#0;class#ReentrantReadWriteLock#0" />
-            <element signature="docComment;method#getQueueLength#0;class#ReentrantReadWriteLock#0" />
-            <element signature="docComment;method#getQueuedThreads#0;class#ReentrantReadWriteLock#0" />
-            <element signature="docComment;method#hasWaiters#0;class#ReentrantReadWriteLock#0" />
-            <element signature="method#hasWaiters#0;class#ReentrantReadWriteLock#0" />
-            <element signature="docComment;method#getWaitQueueLength#0;class#ReentrantReadWriteLock#0" />
-            <element signature="method#getWaitQueueLength#0;class#ReentrantReadWriteLock#0" />
-            <element signature="docComment;method#getWaitingThreads#0;class#ReentrantReadWriteLock#0" />
-            <element signature="method#getWaitingThreads#0;class#ReentrantReadWriteLock#0" />
-            <element signature="docComment;method#toString#0;class#ReentrantReadWriteLock#0" />
-            <element signature="method#toString#0;class#ReentrantReadWriteLock#0" />
-            <element signature="docComment;method#getThreadId#0;class#ReentrantReadWriteLock#0" />
-            <element signature="initializer##0;class#ReentrantReadWriteLock#0" />
-            <element signature="e#58527#58724#0" />
-            <element signature="e#58745#58788#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/reentrant/TestTimeout.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="703">
@@ -2337,6 +1670,59 @@
             <element signature="method#getWaitingThreads#0;class#ReentrantLock#0" />
             <element signature="docComment;method#toString#0;class#ReentrantLock#0" />
             <element signature="method#toString#0;class#ReentrantLock#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/AqsExplain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="188" column="39" lean-forward="true" selection-start-line="188" selection-start-column="39" selection-end-line="188" selection-end-column="39" />
+          <folding>
+            <element signature="docComment;class#AqsExplain#0" />
+            <element signature="class#AqsExplain#0" />
+            <element signature="docComment;method#test1#0;class#AqsExplain#0" />
+            <element signature="method#test1#0;class#AqsExplain#0" />
+            <element signature="e#1859#2111#0" />
+            <element signature="e#1906#1994#0" />
+            <element signature="e#2015#2101#0" />
+            <element signature="e#2147#2399#0" />
+            <element signature="e#2194#2282#0" />
+            <element signature="e#2303#2389#0" />
+            <element signature="docComment;method#test2#0;class#AqsExplain#0" />
+            <element signature="method#test2#0;class#AqsExplain#0" />
+            <element signature="e#2650#2962#0" />
+            <element signature="e#2757#2845#0" />
+            <element signature="e#2866#2952#0" />
+            <element signature="docComment;class#MyLock#0" />
+            <element signature="docComment;class#MySync#0;class#MyLock#0" />
+            <element signature="class#MySync#0;class#MyLock#0" />
+            <element signature="docComment;method#tryAcquire#0;class#MySync#0;class#MyLock#0" />
+            <element signature="method#tryAcquire#0;class#MySync#0;class#MyLock#0" />
+            <element signature="docComment;method#tryRelease#0;class#MySync#0;class#MyLock#0" />
+            <element signature="method#tryRelease#0;class#MySync#0;class#MyLock#0" />
+            <element signature="docComment;method#isHeldExclusively#0;class#MySync#0;class#MyLock#0" />
+            <element signature="method#isHeldExclusively#0;class#MySync#0;class#MyLock#0" />
+            <element signature="docComment;method#newCondition#0;class#MySync#0;class#MyLock#0" />
+            <element signature="n#!!block;n#newCondition#0;n#MySync#0;n#MyLock#0" />
+            <element signature="docComment;method#lock#0;class#MyLock#0" />
+            <element signature="method#lock#0;class#MyLock#0" />
+            <element signature="docComment;method#lockInterruptibly#0;class#MyLock#0" />
+            <element signature="method#lockInterruptibly#0;class#MyLock#0" />
+            <element signature="docComment;method#tryLock#0;class#MyLock#0" />
+            <element signature="method#tryLock#1;class#MyLock#0" />
+            <element signature="method#unlock#0;class#MyLock#0" />
+            <element signature="docComment;method#newCondition#0;class#MyLock#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/reentrant/TestCondition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+          <folding>
+            <element signature="method#test1#0;class#TestCondition#0" />
           </folding>
         </state>
       </provider>
@@ -2596,53 +1982,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/AqsExplain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="188" column="39" lean-forward="true" selection-start-line="188" selection-start-column="39" selection-end-line="188" selection-end-column="39" />
-          <folding>
-            <element signature="docComment;class#AqsExplain#0" />
-            <element signature="class#AqsExplain#0" />
-            <element signature="docComment;method#test1#0;class#AqsExplain#0" />
-            <element signature="method#test1#0;class#AqsExplain#0" />
-            <element signature="e#1859#2111#0" />
-            <element signature="e#1906#1994#0" />
-            <element signature="e#2015#2101#0" />
-            <element signature="e#2147#2399#0" />
-            <element signature="e#2194#2282#0" />
-            <element signature="e#2303#2389#0" />
-            <element signature="docComment;method#test2#0;class#AqsExplain#0" />
-            <element signature="method#test2#0;class#AqsExplain#0" />
-            <element signature="e#2650#2962#0" />
-            <element signature="e#2757#2845#0" />
-            <element signature="e#2866#2952#0" />
-            <element signature="docComment;class#MyLock#0" />
-            <element signature="docComment;class#MySync#0;class#MyLock#0" />
-            <element signature="class#MySync#0;class#MyLock#0" />
-            <element signature="docComment;method#tryAcquire#0;class#MySync#0;class#MyLock#0" />
-            <element signature="method#tryAcquire#0;class#MySync#0;class#MyLock#0" />
-            <element signature="docComment;method#tryRelease#0;class#MySync#0;class#MyLock#0" />
-            <element signature="method#tryRelease#0;class#MySync#0;class#MyLock#0" />
-            <element signature="docComment;method#isHeldExclusively#0;class#MySync#0;class#MyLock#0" />
-            <element signature="method#isHeldExclusively#0;class#MySync#0;class#MyLock#0" />
-            <element signature="docComment;method#newCondition#0;class#MySync#0;class#MyLock#0" />
-            <element signature="n#!!block;n#newCondition#0;n#MySync#0;n#MyLock#0" />
-            <element signature="docComment;method#lock#0;class#MyLock#0" />
-            <element signature="method#lock#0;class#MyLock#0" />
-            <element signature="docComment;method#lockInterruptibly#0;class#MyLock#0" />
-            <element signature="method#lockInterruptibly#0;class#MyLock#0" />
-            <element signature="docComment;method#tryLock#0;class#MyLock#0" />
-            <element signature="method#tryLock#1;class#MyLock#0" />
-            <element signature="method#unlock#0;class#MyLock#0" />
-            <element signature="docComment;method#newCondition#0;class#MyLock#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/reentrant/TestInterrupt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-599">
-          <caret line="60" column="33" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="33" />
+        <state relative-caret-position="218">
+          <caret line="94" column="13" selection-start-line="94" selection-start-column="13" selection-end-line="94" selection-end-column="13" />
           <folding>
             <element signature="e#417#418#0" expanded="true" />
             <element signature="e#440#441#0" expanded="true" />
@@ -2651,20 +1994,401 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/reentrant/TestCondition.java">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/Live template">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+        <state relative-caret-position="171">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.util.concurrent.locks.ReentrantReadWriteLock">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.util.concurrent.locks.ReentrantReadWriteLock</OriginalElement>
+          <nodes>
+            <node x="340.5" y="247.0">java.util.concurrent.locks.ReentrantReadWriteLock.Sync.ThreadLocalHoldCounter</node>
+            <node x="538.5" y="247.0">java.util.concurrent.locks.ReentrantReadWriteLock.FairSync</node>
+            <node x="76.5" y="247.0">java.util.concurrent.locks.ReentrantReadWriteLock.NonfairSync</node>
+            <node x="208.49999999999997" y="247.0">java.util.concurrent.locks.ReentrantReadWriteLock.Sync.HoldCounter</node>
+            <node x="619.5" y="168.0">java.util.concurrent.locks.ReentrantReadWriteLock.WriteLock</node>
+            <node x="302.58333333333326" y="168.0">java.util.concurrent.locks.ReentrantReadWriteLock.Sync</node>
+            <node x="0.0" y="168.0">java.util.concurrent.locks.ReentrantReadWriteLock.ReadLock</node>
+            <node x="202.37499999999997" y="79.0">java.util.concurrent.locks.ReentrantReadWriteLock</node>
+            <node x="184.87499999999997" y="0.0">java.util.concurrent.locks.ReadWriteLock</node>
+            <node x="328.875" y="0.0">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="java.util.concurrent.locks.ReentrantReadWriteLock.WriteLock" target="java.util.concurrent.locks.ReentrantReadWriteLock">
+              <point x="-25.0" y="-14.5" />
+              <point x="644.5" y="128.0" />
+              <point x="362.57499999999993" y="128.0" />
+              <point x="71.19999999999999" y="14.5" />
+            </edge>
+            <edge source="java.util.concurrent.locks.ReentrantReadWriteLock.NonfairSync" target="java.util.concurrent.locks.ReentrantReadWriteLock">
+              <point x="-28.0" y="-14.5" />
+              <point x="104.49999999999997" y="148.0" />
+              <point x="255.77499999999995" y="148.0" />
+              <point x="-35.60000000000002" y="14.5" />
+            </edge>
+            <edge source="java.util.concurrent.locks.ReentrantReadWriteLock.ReadLock" target="java.util.concurrent.locks.ReentrantReadWriteLock">
+              <point x="23.5" y="-14.5" />
+              <point x="70.5" y="138.0" />
+              <point x="220.17499999999998" y="138.0" />
+              <point x="-71.19999999999999" y="14.5" />
+            </edge>
+            <edge source="java.util.concurrent.locks.ReentrantReadWriteLock" target="java.util.concurrent.locks.ReadWriteLock">
+              <point x="-44.5" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="java.util.concurrent.locks.ReentrantReadWriteLock" target="java.io.Serializable">
+              <point x="44.5" y="-14.5" />
+              <point x="335.875" y="59.0" />
+              <point x="373.125" y="59.0" />
+              <point x="-14.75" y="14.5" />
+            </edge>
+            <edge source="java.util.concurrent.locks.ReentrantReadWriteLock.Sync" target="java.util.concurrent.locks.ReentrantReadWriteLock">
+              <point x="-17.5" y="-14.5" />
+              <point x="320.08333333333326" y="148.0" />
+              <point x="291.375" y="148.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="java.util.concurrent.locks.ReentrantReadWriteLock.Sync" target="java.io.Serializable">
+              <point x="17.5" y="-14.5" />
+              <point x="355.08333333333326" y="148.0" />
+              <point x="402.625" y="148.0" />
+              <point x="14.75" y="14.5" />
+            </edge>
+            <edge source="java.util.concurrent.locks.ReentrantReadWriteLock.FairSync" target="java.util.concurrent.locks.ReentrantReadWriteLock.Sync">
+              <point x="-23.5" y="-14.5" />
+              <point x="562.0" y="217.0" />
+              <point x="363.83333333333326" y="217.0" />
+              <point x="26.25" y="14.5" />
+            </edge>
+            <edge source="java.util.concurrent.locks.ReentrantReadWriteLock.Sync.HoldCounter" target="java.util.concurrent.locks.ReentrantReadWriteLock.Sync">
+              <point x="0.0" y="-14.5" />
+              <point x="264.5" y="227.0" />
+              <point x="328.83333333333326" y="227.0" />
+              <point x="-8.75" y="14.5" />
+            </edge>
+            <edge source="java.util.concurrent.locks.ReentrantReadWriteLock.WriteLock" target="java.io.Serializable">
+              <point x="25.0" y="-14.5" />
+              <point x="694.5" y="59.0" />
+              <point x="432.125" y="59.0" />
+              <point x="44.25" y="14.5" />
+            </edge>
+            <edge source="java.util.concurrent.locks.ReentrantReadWriteLock.NonfairSync" target="java.util.concurrent.locks.ReentrantReadWriteLock.Sync">
+              <point x="28.0" y="-14.5" />
+              <point x="160.5" y="217.0" />
+              <point x="311.33333333333326" y="217.0" />
+              <point x="-26.25" y="14.5" />
+            </edge>
+            <edge source="java.util.concurrent.locks.ReentrantReadWriteLock.ReadLock" target="java.io.Serializable">
+              <point x="-23.5" y="-14.5" />
+              <point x="23.5" y="49.0" />
+              <point x="343.625" y="49.0" />
+              <point x="-44.25" y="14.5" />
+            </edge>
+            <edge source="java.util.concurrent.locks.ReentrantReadWriteLock.Sync.ThreadLocalHoldCounter" target="java.util.concurrent.locks.ReentrantReadWriteLock.Sync">
+              <point x="0.0" y="-14.5" />
+              <point x="429.5" y="227.0" />
+              <point x="346.33333333333326" y="227.0" />
+              <point x="8.75" y="14.5" />
+            </edge>
+            <edge source="java.util.concurrent.locks.ReentrantReadWriteLock.FairSync" target="java.util.concurrent.locks.ReentrantReadWriteLock">
+              <point x="23.50000000000003" y="-14.5" />
+              <point x="609.0" y="138.0" />
+              <point x="326.9749999999999" y="138.0" />
+              <point x="35.599999999999966" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-374.0" y="-4.0" />
+          <SelectedNodes>
+            <node>java.util.concurrent.locks.ReentrantReadWriteLock</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/concurrent/locks/ReentrantReadWriteLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="1507" column="5" lean-forward="true" selection-start-line="1507" selection-start-column="5" selection-end-line="1507" selection-end-column="5" />
           <folding>
-            <element signature="method#test1#0;class#TestCondition#0" />
+            <element signature="e#0#58798#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#ReentrantReadWriteLock#0" />
+            <element signature="docComment;field#readerLock#0;class#ReentrantReadWriteLock#0" />
+            <element signature="docComment;field#writerLock#0;class#ReentrantReadWriteLock#0" />
+            <element signature="docComment;field#sync#0;class#ReentrantReadWriteLock#0" />
+            <element signature="docComment;method#ReentrantReadWriteLock#0;class#ReentrantReadWriteLock#0" />
+            <element signature="e#7757#7758#0" expanded="true" />
+            <element signature="e#7784#7785#0" expanded="true" />
+            <element signature="docComment;method#ReentrantReadWriteLock#1;class#ReentrantReadWriteLock#0" />
+            <element signature="docComment;class#Sync#0;class#ReentrantReadWriteLock#0" />
+            <element signature="class#Sync#0;class#ReentrantReadWriteLock#0" />
+            <element signature="e#8621#8906#0" />
+            <element signature="docComment;method#sharedCount#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
+            <element signature="method#sharedCount#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
+            <element signature="docComment;method#exclusiveCount#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
+            <element signature="method#exclusiveCount#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
+            <element signature="docComment;class#HoldCounter#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
+            <element signature="class#HoldCounter#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
+            <element signature="docComment;class#ThreadLocalHoldCounter#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
+            <element signature="class#ThreadLocalHoldCounter#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
+            <element signature="docComment;field#readHolds#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
+            <element signature="docComment;field#cachedHoldCounter#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
+            <element signature="docComment;field#firstReader#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
+            <element signature="method#Sync#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
+            <element signature="e#12265#12452#0" />
+            <element signature="docComment;method#readerShouldBlock#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
+            <element signature="docComment;method#writerShouldBlock#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
+            <element signature="e#13023#13299#0" />
+            <element signature="method#tryRelease#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
+            <element signature="method#tryAcquire#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
+            <element signature="e#13763#14262#0" />
+            <element signature="e#14411#14835#1" />
+            <element signature="method#tryReleaseShared#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
+            <element signature="e#15197#15416#1" />
+            <element signature="e#15422#15849#1" />
+            <element signature="e#15654#15807#1" />
+            <element signature="e#15871#16262#1" />
+            <element signature="e#16024#16076#0" />
+            <element signature="method#unmatchedUnlockException#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
+            <element signature="method#tryAcquireShared#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
+            <element signature="e#16561#17329#0" />
+            <element signature="e#17703#18314#1" />
+            <element signature="e#17733#17841#1" />
+            <element signature="e#17875#17938#1" />
+            <element signature="e#17944#18274#1" />
+            <element signature="docComment;method#fullTryAcquireShared#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
+            <element signature="method#fullTryAcquireShared#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
+            <element signature="e#18606#18871#0" />
+            <element signature="e#18928#20957#1" />
+            <element signature="e#19010#19241#1" />
+            <element signature="e#19129#19178#0" />
+            <element signature="e#19272#20000#1" />
+            <element signature="e#19486#19982#1" />
+            <element signature="e#19528#19878#1" />
+            <element signature="e#19660#19852#1" />
+            <element signature="e#20178#20943#1" />
+            <element signature="e#20225#20345#1" />
+            <element signature="e#20379#20450#1" />
+            <element signature="e#20456#20895#1" />
+            <element signature="docComment;method#tryWriteLock#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
+            <element signature="method#tryWriteLock#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
+            <element signature="e#21323#21587#1" />
+            <element signature="docComment;method#tryReadLock#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
+            <element signature="method#tryReadLock#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
+            <element signature="e#22070#23138#1" />
+            <element signature="e#22450#23124#1" />
+            <element signature="e#22484#22604#1" />
+            <element signature="e#22638#22709#1" />
+            <element signature="e#22715#23073#1" />
+            <element signature="method#isHeldExclusively#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
+            <element signature="e#23216#23268#0" />
+            <element signature="method#getOwner#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
+            <element signature="method#getReadHoldCount#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
+            <element signature="docComment;method#readObject#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
+            <element signature="method#readObject#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
+            <element signature="method#getCount#0;class#Sync#0;class#ReentrantReadWriteLock#0" />
+            <element signature="docComment;class#NonfairSync#0;class#ReentrantReadWriteLock#0" />
+            <element signature="class#NonfairSync#0;class#ReentrantReadWriteLock#0" />
+            <element signature="method#readerShouldBlock#0;class#NonfairSync#0;class#ReentrantReadWriteLock#0" />
+            <element signature="e#25439#25859#0" />
+            <element signature="docComment;class#FairSync#0;class#ReentrantReadWriteLock#0" />
+            <element signature="class#FairSync#0;class#ReentrantReadWriteLock#0" />
+            <element signature="docComment;class#ReadLock#0;class#ReentrantReadWriteLock#0" />
+            <element signature="class#ReadLock#0;class#ReentrantReadWriteLock#0" />
+            <element signature="docComment;method#ReadLock#0;class#ReadLock#0;class#ReentrantReadWriteLock#0" />
+            <element signature="e#26818#26819#0" expanded="true" />
+            <element signature="e#26858#26859#0" expanded="true" />
+            <element signature="docComment;method#lock#0;class#ReadLock#0;class#ReentrantReadWriteLock#0" />
+            <element signature="docComment;method#lockInterruptibly#0;class#ReadLock#0;class#ReentrantReadWriteLock#0" />
+            <element signature="method#lockInterruptibly#0;class#ReadLock#0;class#ReentrantReadWriteLock#0" />
+            <element signature="docComment;method#tryLock#0;class#ReadLock#0;class#ReentrantReadWriteLock#0" />
+            <element signature="docComment;method#tryLock#1;class#ReadLock#0;class#ReentrantReadWriteLock#0" />
+            <element signature="method#tryLock#1;class#ReadLock#0;class#ReentrantReadWriteLock#0" />
+            <element signature="docComment;method#unlock#0;class#ReadLock#0;class#ReentrantReadWriteLock#0" />
+            <element signature="docComment;method#newCondition#0;class#ReadLock#0;class#ReentrantReadWriteLock#0" />
+            <element signature="docComment;method#toString#0;class#ReadLock#0;class#ReentrantReadWriteLock#0" />
+            <element signature="method#toString#0;class#ReadLock#0;class#ReentrantReadWriteLock#0" />
+            <element signature="docComment;class#WriteLock#0;class#ReentrantReadWriteLock#0" />
+            <element signature="docComment;method#WriteLock#0;class#WriteLock#0;class#ReentrantReadWriteLock#0" />
+            <element signature="e#34878#34879#0" expanded="true" />
+            <element signature="e#34918#34919#0" expanded="true" />
+            <element signature="docComment;method#lock#0;class#WriteLock#0;class#ReentrantReadWriteLock#0" />
+            <element signature="docComment;method#lockInterruptibly#0;class#WriteLock#0;class#ReentrantReadWriteLock#0" />
+            <element signature="method#lockInterruptibly#0;class#WriteLock#0;class#ReentrantReadWriteLock#0" />
+            <element signature="docComment;method#tryLock#0;class#WriteLock#0;class#ReentrantReadWriteLock#0" />
+            <element signature="docComment;method#tryLock#1;class#WriteLock#0;class#ReentrantReadWriteLock#0" />
+            <element signature="method#tryLock#1;class#WriteLock#0;class#ReentrantReadWriteLock#0" />
+            <element signature="docComment;method#unlock#0;class#WriteLock#0;class#ReentrantReadWriteLock#0" />
+            <element signature="docComment;method#newCondition#0;class#WriteLock#0;class#ReentrantReadWriteLock#0" />
+            <element signature="docComment;method#toString#0;class#WriteLock#0;class#ReentrantReadWriteLock#0" />
+            <element signature="method#toString#0;class#WriteLock#0;class#ReentrantReadWriteLock#0" />
+            <element signature="docComment;method#isHeldByCurrentThread#0;class#WriteLock#0;class#ReentrantReadWriteLock#0" />
+            <element signature="docComment;method#getHoldCount#0;class#WriteLock#0;class#ReentrantReadWriteLock#0" />
+            <element signature="docComment;method#isFair#0;class#ReentrantReadWriteLock#0" />
+            <element signature="docComment;method#getOwner#0;class#ReentrantReadWriteLock#0" />
+            <element signature="docComment;method#getReadLockCount#0;class#ReentrantReadWriteLock#0" />
+            <element signature="docComment;method#isWriteLocked#0;class#ReentrantReadWriteLock#0" />
+            <element signature="docComment;method#isWriteLockedByCurrentThread#0;class#ReentrantReadWriteLock#0" />
+            <element signature="docComment;method#getWriteHoldCount#0;class#ReentrantReadWriteLock#0" />
+            <element signature="docComment;method#getReadHoldCount#0;class#ReentrantReadWriteLock#0" />
+            <element signature="docComment;method#getQueuedWriterThreads#0;class#ReentrantReadWriteLock#0" />
+            <element signature="docComment;method#getQueuedReaderThreads#0;class#ReentrantReadWriteLock#0" />
+            <element signature="docComment;method#hasQueuedThreads#0;class#ReentrantReadWriteLock#0" />
+            <element signature="docComment;method#hasQueuedThread#0;class#ReentrantReadWriteLock#0" />
+            <element signature="docComment;method#getQueueLength#0;class#ReentrantReadWriteLock#0" />
+            <element signature="docComment;method#getQueuedThreads#0;class#ReentrantReadWriteLock#0" />
+            <element signature="docComment;method#hasWaiters#0;class#ReentrantReadWriteLock#0" />
+            <element signature="method#hasWaiters#0;class#ReentrantReadWriteLock#0" />
+            <element signature="docComment;method#getWaitQueueLength#0;class#ReentrantReadWriteLock#0" />
+            <element signature="method#getWaitQueueLength#0;class#ReentrantReadWriteLock#0" />
+            <element signature="docComment;method#getWaitingThreads#0;class#ReentrantReadWriteLock#0" />
+            <element signature="method#getWaitingThreads#0;class#ReentrantReadWriteLock#0" />
+            <element signature="docComment;method#toString#0;class#ReentrantReadWriteLock#0" />
+            <element signature="method#toString#0;class#ReentrantReadWriteLock#0" />
+            <element signature="docComment;method#getThreadId#0;class#ReentrantReadWriteLock#0" />
+            <element signature="initializer##0;class#ReentrantReadWriteLock#0" />
+            <element signature="e#58527#58724#0" />
+            <element signature="e#58745#58788#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/reentrant/TestReentrantReadWriteLock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        <state relative-caret-position="275">
+          <caret line="107" column="46" lean-forward="true" selection-start-line="107" selection-start-column="46" selection-end-line="107" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;field#data#0;class#DataContainer#0" />
+            <element signature="docComment;field#rw#0;class#DataContainer#0" />
+            <element signature="docComment;field#r#0;class#DataContainer#0" />
+            <element signature="docComment;field#w#0;class#DataContainer#0" />
+            <element signature="docComment;method#read#0;class#DataContainer#0" />
+            <element signature="e#1193#1237#0" />
+            <element signature="docComment;method#write#0;class#DataContainer#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/sql/DriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="80" column="13" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/reentrantreadwritelock/LockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/sql/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="136" column="7" selection-start-line="136" selection-start-column="7" selection-end-line="136" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/reentrantreadwritelock/Emp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-380">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding>
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
+            <element signature="e#688#689#0" expanded="true" />
+            <element signature="e#718#719#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day01_java_thead_01/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/reentrantreadwritelock/TestGenericDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/reentrantreadwritelock/GenericDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="931">
+          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/reentrantreadwritelock/read.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/READ.RD">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/reentrantreadwritelock/umlSequence.puml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/reentrantreadwritelock/first.puml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/reentrantreadwritelock/GenericDaoCached.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="84" column="19" lean-forward="true" selection-start-line="84" selection-start-column="19" selection-end-line="84" selection-end-column="19" />
+          <folding>
+            <element signature="docComment;class#GenericDaoCached#0" />
+            <element signature="method#queryList#0;class#GenericDaoCached#0" />
+            <element signature="docComment;field#sql#0;class#SqlPair#0;class#GenericDaoCached#0" />
+            <element signature="docComment;field#args#0;class#SqlPair#0;class#GenericDaoCached#0" />
+            <element signature="method#SqlPair#0;class#SqlPair#0;class#GenericDaoCached#0" />
+          </folding>
         </state>
       </provider>
     </entry>
