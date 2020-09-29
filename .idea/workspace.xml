@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74376a79-2656-4bd9-99b3-ed503edd66f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Markdown.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/git.README.MD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day01_java_thead_01.zip" beforeDir="false" afterPath="$PROJECT_DIR$/day01_java_thead_01.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Markdown.MD" beforeDir="false" afterPath="$PROJECT_DIR$/Markdown.MD" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -91,8 +87,8 @@
         <entry file="file://$PROJECT_DIR$/Markdown.MD">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="269">
-                <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+              <first_editor relative-caret-position="133">
+                <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
               </first_editor>
               <second_editor />
             </state>
@@ -280,11 +276,6 @@
             <path>
               <item name="java-thead1" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-thead1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-thead1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-thead1" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -505,7 +496,7 @@
       <workItem from="1601002532641" duration="10641000" />
       <workItem from="1601168385504" duration="15257000" />
       <workItem from="1601195925205" duration="3440000" />
-      <workItem from="1601362535680" duration="3135000" />
+      <workItem from="1601362535680" duration="3290000" />
     </task>
     <servers />
   </component>
@@ -533,7 +524,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="162031000" />
+    <option name="totallyTimeSpent" value="162186000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2329,8 +2320,8 @@
     <entry file="file://$PROJECT_DIR$/Markdown.MD">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="269">
-            <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+          <first_editor relative-caret-position="133">
+            <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
           </first_editor>
           <second_editor />
         </state>
