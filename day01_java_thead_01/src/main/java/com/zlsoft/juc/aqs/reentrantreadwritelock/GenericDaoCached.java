@@ -1,7 +1,10 @@
 package com.zlsoft.juc.aqs.reentrantreadwritelock;
 
 import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
+import java.util.concurrent.locks.StampedLock;
 
 /**
  * @version 1.0.0
@@ -20,6 +23,8 @@ public class GenericDaoCached extends GenericDao {
      */
     private Map<SqlPair, Object> map = new HashMap<>();
     private ReentrantReadWriteLock rw = new ReentrantReadWriteLock();
+
+    private StampedLock sl = new StampedLock();
 
     @Override
     public <T> List<T> queryList(Class<T> beanClass, String sql, Object... args) {
