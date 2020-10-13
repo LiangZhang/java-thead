@@ -4,7 +4,6 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/day01_java_thead_01" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/core/Constants.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/doubleSingleton/Singleton.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/doubleSingleton/Singleton1.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/doubleSingleton/Singleton3.java" charset="GBK" />
