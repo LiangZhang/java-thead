@@ -87,8 +87,8 @@ public abstract class MultiThread<H,T>{
             }
             //所有任务添加完毕，启动门计数器减1，这时计数器为0，所有添加的任务开始执行
             startLock.countDown();
-            //主线程阻塞，直到所有线程执行完成
-            endLock.await();
+            //主线程阻塞，直到所有线endLock.await();程执行完成
+
             for(Future<T> future : queue) {
                 resultList.add(future.get());
             }

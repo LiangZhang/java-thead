@@ -9,9 +9,11 @@
     <file url="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/doubleSingleton/Singleton1.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/doubleSingleton/Singleton3.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/doubleSingleton/Singleton4.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/cyclicbarrier/TestCyclicBarrier.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/reentrantreadwritelock/Emp.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/reentrantreadwritelock/GenericDao.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/reentrantreadwritelock/TestGenericDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/semaphore/TestPoolSemaphore.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/juc/aqs/stampedlock/TestStampedLock.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/n1/lightweightLock.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/day01_java_thead_01/src/main/java/com/zlsoft/threadPoolExecutor/cachedThreadPool/TestSynchronousQueue.java" charset="GBK" />
