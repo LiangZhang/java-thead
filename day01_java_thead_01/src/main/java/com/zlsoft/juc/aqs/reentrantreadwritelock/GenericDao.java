@@ -9,26 +9,26 @@ import java.sql.*;
 import java.util.*;
 
 /**
- *     ½ñÌì³öÏÖ±àÂë³öÏÖÁËNo suitable driver found for jdbc£¬ÓÖÊÇÕÒ±éÁËÍøÉÏµÄ×ÊÁÏ£¬»ù±¾ÉÏ¶¼ËµÊÇÈı¸öÎÊÌâ£º
- *     Ò»ÊÇ£ºÁ¬½ÓURL¸ñÊ½³öÏÖÁËÎÊÌâ(Connection conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/XX","root","XXXX")
- *     ¶şÊÇ£ºÇı¶¯×Ö·û´®³ö´í(com.mysql.jdbc.Driver)
- *     ÈıÊÇClasspathÖĞÃ»ÓĞ¼ÓÈëºÏÊÊµÄmysql_jdbcÇı¶¯
- *     ¾­¹ıÎÒµÄ×ĞÏ¸¼ì²é£¬ÕâÈıÖÖ´íÎóÎÒ¶¼Ã»ÓĞ·¸£¬ÎªÊ²Ã´ÄØ£¿
- *     ³¢ÊÔ×Å½«mysql-connector-java-3.1.14-bin.jarµÄjar°ü¼ÓÈëC:\Program Files\Java\jre1.6.0_02\lib\extÎÄ¼ş¼ĞÏÂ£¬ÎÊÌâ½â¾öÁË£¡£¡
- *     Ô­À´ÊÇ²»½ö½öÒªÇó½«Çı¶¯¼ÓÈëclasspathÖĞ£¬¶øÇÒĞèÒª½«¸Ãjar°ü¼ÓÈëµ½javaÔËĞĞ»·¾³µÄÍâ²¿jar°üÖĞ£¬°¦£¬ÏÂ´ÎÕâÖÖµÍ¼¶´íÎó»¹ÊÇÉÙ·¸ÎªÃî¡£
+ *     ä»Šå¤©å‡ºç°ç¼–ç å‡ºç°äº†No suitable driver found for jdbcï¼Œåˆæ˜¯æ‰¾éäº†ç½‘ä¸Šçš„èµ„æ–™ï¼ŒåŸºæœ¬ä¸Šéƒ½è¯´æ˜¯ä¸‰ä¸ªé—®é¢˜ï¼š
+ *     ä¸€æ˜¯ï¼šè¿æ¥URLæ ¼å¼å‡ºç°äº†é—®é¢˜(Connection conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/XX","root","XXXX")
+ *     äºŒæ˜¯ï¼šé©±åŠ¨å­—ç¬¦ä¸²å‡ºé”™(com.mysql.jdbc.Driver)
+ *     ä¸‰æ˜¯Classpathä¸­æ²¡æœ‰åŠ å…¥åˆé€‚çš„mysql_jdbcé©±åŠ¨
+ *     ç»è¿‡æˆ‘çš„ä»”ç»†æ£€æŸ¥ï¼Œè¿™ä¸‰ç§é”™è¯¯æˆ‘éƒ½æ²¡æœ‰çŠ¯ï¼Œä¸ºä»€ä¹ˆå‘¢ï¼Ÿ
+ *     å°è¯•ç€å°†mysql-connector-java-3.1.14-bin.jarçš„jaråŒ…åŠ å…¥C:\Program Files\Java\jre1.6.0_02\lib\extæ–‡ä»¶å¤¹ä¸‹ï¼Œé—®é¢˜è§£å†³äº†ï¼ï¼
+ *     åŸæ¥æ˜¯ä¸ä»…ä»…è¦æ±‚å°†é©±åŠ¨åŠ å…¥classpathä¸­ï¼Œè€Œä¸”éœ€è¦å°†è¯¥jaråŒ…åŠ å…¥åˆ°javaè¿è¡Œç¯å¢ƒçš„å¤–éƒ¨jaråŒ…ä¸­ï¼Œå”‰ï¼Œä¸‹æ¬¡è¿™ç§ä½çº§é”™è¯¯è¿˜æ˜¯å°‘çŠ¯ä¸ºå¦™ã€‚
  */
 
 /**
- *  my-sql:ÅäÖÃ
+ *  my-sql:é…ç½®
  *     > username: mysql2008
  *     > password: 77993453@@zh
  *     > #   url: jdbc:mysql://192.168.0.135:3307/test
- *     > #   java.sql.SQLException: The server time zone value '?§Û???????' is unrecognized or represents more tha
- *     > #   mysqlÁ¬½Ó¸ß°æ±¾
+ *     > #   java.sql.SQLException: The server time zone value '?Ğ¹???????' is unrecognized or represents more tha
+ *     > #   mysqlè¿æ¥é«˜ç‰ˆæœ¬
  *     > url: jdbc:mysql://127.0.0.1:3307/test?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
  *     > driver-class-name: com.mysql.cj.jdbc.Driver
  *     > type: com.alibaba.druid.pool.DruidDataSource
- *     -¼ÓÈëjar£ºC:\Program Files\Java\jre1.8.0_221\lib\ext\
+ *     -åŠ å…¥jarï¼šC:\Program Files\Java\jre1.8.0_221\lib\ext\
  * @author: L.Z QQ.191288065@qq.com
  * @createTime 2020-09-27 11:17:11
 */
@@ -38,7 +38,7 @@ public class GenericDao {
     static String PASSWORD = "77993453@@zh";
 
     /**
-     * ²éÑ¯¼¯ºÏ
+     * æŸ¥è¯¢é›†åˆ
      * @author: L.Z QQ.191288065@qq.com
      * @createTime 2020-09-27 11:21:22
     */
@@ -49,7 +49,7 @@ public class GenericDao {
     }
 
     /**
-     * ²éÑ¯µ¥¸ö
+     * æŸ¥è¯¢å•ä¸ª
      * @author: L.Z QQ.191288065@qq.com
      * @createTime 2020-09-27 11:21:36
     */
